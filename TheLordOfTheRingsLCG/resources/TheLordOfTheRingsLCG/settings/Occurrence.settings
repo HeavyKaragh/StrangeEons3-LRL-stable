@@ -1,0 +1,33 @@
+Occurrence-Collection-portrait-clip-region = 337,512,12,12
+Occurrence-Portrait-portrait-clip-region = 0,146,375,170
+Occurrence-Portrait-portrait-rotation = 0
+Occurrence-EncounterSet-portrait-clip-region = 316,14,42,42
+
+Occurrence-adapter-region = 12,54,40,146
+Occurrence-Artist-region = 19,511,109,14
+Occurrence-Body-region = 20,310,335,172
+Occurrence-Success-region = 20,373,335,53
+Occurrence-Failure-region = 20,431,335,53
+Occurrence-Story-region = 20,60,335,88
+Occurrence-CollectionInfo-region = 247,511,88,14
+Occurrence-CollectionNumber-region = 350,511,19,14
+Occurrence-Copyright-region = 130,511,115,14
+Occurrence-Name-region = 20,22,290,23
+Occurrence-Name-full-region = 20,22,335,23
+Occurrence-Type-region = 117,494,140,16
+Occurrence-Region-region = 168,160,40,40
+
+Occurrence-difficultyDeco-region = 312,10,50,50
+Occurrence-front-complex-region = 0,0,375,525
+
+Occurrence-Story-alignment = middle,left
+Occurrence-Story-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000; POSTURE: POSTURE_OBLIQUE
+Occurrence-Name-alignment = middle,left
+Occurrence-Name-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 10.0; FOREGROUND: #F0F0F0
+Occurrence-Type-alignment = middle,center
+Occurrence-Type-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 7; FOREGROUND: #F0F0F0
+
+Occurrence-Artist-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #F0F0F0
+Occurrence-CollectionInfo-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #F0F0F0
+Occurrence-CollectionNumber-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #F0F0F0
+Occurrence-Copyright-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #F0F0F0

@@ -1,0 +1,27 @@
+RulesCard-Portrait-portrait-clip-region = 25,275,325,250
+RulesCard-Portrait-portrait-rotation = 0
+RulesCard-Collection-portrait-clip-region = 325,512,12,12
+
+RulesCard-Name-region = 34,10,308,46
+RulesCard-Body-region = 36,100,304,406
+RulesCard-BodyBack-region = 36,14,304,492
+RulesCard-Artist-region = 38,511,160,14
+RulesCard-Copyright-region = 38,511,160,14
+RulesCard-CollectionInfo-region = 200,511,122,14
+RulesCard-adapter-region = 70,58,235,40
+RulesCard-adapter-corrector = 21
+
+RulesCard-Name-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; SIZE: 14.0; FOREGROUND: #F0F0F0
+RulesCard-Artist-alignment = center,middle
+RulesCard-Artist-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+RulesCard-CollectionInfo-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+RulesCard-CollectionNumber-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+RulesCard-Copyright-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+RulesCard-Copyright-alignment = left
+
+RulesCard-EncounterSet-portrait-clip-region = 158,68,20,20
+RulesCard-EncounterSet1-portrait-clip-region = 197,68,20,20
+RulesCard-EncounterSet2-portrait-clip-region = 119,68,20,20
+RulesCard-EncounterSet3-portrait-clip-region = 237,68,20,20
+RulesCard-EncounterSet4-portrait-clip-region = 81,68,20,20
+RulesCard-EncounterSet5-portrait-clip-region =275,68,20,20

@@ -1,0 +1,226 @@
+# text
+Adventure-alignment = middle,center
+Adventure-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 6; FOREGROUND: #000000
+Artist-alignment = middle,left
+Artist-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4; FOREGROUND: #FFFFFF
+
+Story-alignment = left
+Story-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000
+Story-shape = 0,0,0,0,0
+Story-tightness = 0.5
+
+Success-alignment = left
+Success-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000
+Success-shape = 0,0,0,0,0
+Success-tightness = 0.5
+
+Failure-alignment = left
+Failure-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000
+Failure-shape = 0,0,0,0,0
+Failure-tightness = 0.5
+
+Body-alignment = left
+Body-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000
+Body-shape = 0,0,0,0,0
+Body-tightness = 0.5
+
+BodyBack-shape = 0,0,0,0,0
+CollectionInfo-alignment = middle,right
+CollectionInfo-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4; FOREGROUND: #FFFFFF
+CollectionNumber-alignment = middle,left
+CollectionNumber-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #FFFFFF
+Copyright-alignment = middle,center
+Copyright-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4; FOREGROUND: #FFFFFF
+Cycle-alignment = middle,center
+Cycle-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 8; FOREGROUND: #000000
+EncounterSetNumber-alignment = middle,center
+EncounterSetNumber-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #FFFFFF
+GameName-alignment = middle,center
+GameName-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; SIZE: 16.0; FOREGROUND: #FFFFFF
+Name-alignment = middle,center
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 10.0; FOREGROUND: #000000
+OptionLeft-alignment = middle,center
+OptionLeft-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 5.0; FOREGROUND: #000000
+OptionRight-alignment = middle,center
+OptionRight-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 5.0; FOREGROUND: #000000
+Subtype-alignment = middle,center
+Subtype-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 6.0; FOREGROUND: #000000
+Type-alignment = middle,center
+Type-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 7; FOREGROUND: #000000
+# tints
+Engagement-tint = 20.0,0.6,0.9
+HitPoints-tint = 0.0,0.9,0.9
+Page-tint = 00.0,0.0,1.0
+Progress-tint = 20.0,0.6,0.9
+ResourceCost-tint = 180.0,0.0,1.0
+Stage-tint = 190.0,0.6,0.9
+ThreatCost-tint = 200.0,0.7,0.7
+Gold-tint = 40.0,1.0,1.0
+Neutral-tint = 0.0,0.2,0.8
+Leadership-tint = -58.0,0.5,1.0
+Lore-tint = 135.0,0.5,1.0
+Spirit-tint = -150.0,0.9,0.9
+Tactics-tint = 10.0,0.5,0.8
+Fellowship-tint = 20.0,0.5,1.0
+Baggins-tint = 50.0,1.0,1.0
+Mastery-tint = 30.0,0.5,1.0
+
+Red-tint = 0.0,1.0,1.0
+Green-tint = 120.0,1.0,1.0
+Yellow-tint = 60.0,1.0,1.0
+Blue-tint = -180.0,1.0,1.0
+Black-tint = 0.0,0.0,0.0
+White-tint = 0.0,0.0,1.0
+Purple-tint = -60.0,1.0,1.0
+Brown-tint = 30.0,1.0,1.0
+
+CoreSet-tint = 10.0,1.0,0.6
+CoreSet-out-tint = 0.0,0.9,0.8
+ShadowsOfMirkwood-tint = 150.0,0.7,0.35
+ShadowsOfMirkwood-out-tint = 30.0,0.3,0.3
+KhazadDum-tint = 25.0,0.6,0.5
+KhazadDum-out-tint = 180.0,0.1,0.2
+Dwarrowdelf-tint = 20.0,0.6,0.5
+Dwarrowdelf-out-tint = 20.0,0.1,0.35
+HeirsOfNumenor-tint = 15.0,0.2,0.7
+HeirsOfNumenor-out-tint = -145.0,0.3,0.8
+AgainstTheShadow-tint = 15.0,0.2,0.7
+AgainstTheShadow-out-tint = -145.0,0.3,0.8
+TheVoiceOfIsengard-tint = -70.0,0.35,0.5
+TheVoiceOfIsengard-out-tint = -10.0,0.1,0.9
+TheRingMaker-tint = -70.0,0.35,0.5
+TheRingMaker-out-tint = -10.0,0.1,0.9
+TheLostRealm-tint = -120.0,0.1,0.25
+TheLostRealm-out-tint = 10.0,0.25,0.35
+AngmarAwakened-tint = -120.0,0.1,0.25
+AngmarAwakened-out-tint = 10.0,0.25,0.35
+TheGreyHavens-tint = -150,0.6,0.4
+TheGreyHavens-out-tint = -10,0.1,0.7
+DreamChaser-tint = -150,0.6,0.4
+DreamChaser-out-tint = -10,0.1,0.7
+TheSandsOfHarad-tint = 5,0.75,0.55
+TheSandsOfHarad-out-tint = 40,0.4,1
+TheHaradrim-tint = 5,0.75,0.55
+TheHaradrim-out-tint = 40,0.4,1
+TheWildsOfRhovanion-tint = 10.0,1.0,0.6
+TheWildsOfRhovanion-out-tint = -150,0.6,0.4
+EredMithrin-tint = 10.0,1.0,0.6
+EredMithrin-out-tint = -150,0.6,0.4
+AShadowInTheEast-tint = -120.0,0.1,0.25
+AShadowInTheEast-out-tint = -150,0.6,0.4
+VengeanceOfMordor-tint = -120.0,0.1,0.25
+VengeanceOfMordor-out-tint = -150,0.6,0.4
+
+TwoPlayerLimitedEditionStarter-tint = 10.0,1.0,0.6
+TwoPlayerLimitedEditionStarter-out-tint = 0.0,0.9,0.8
+
+
+OverHillAndUnderHill-tint = 30.0,0.8,0.8
+OverHillAndUnderHill-out-tint = 20.0,0.6,0.4
+OnTheDoorstep-tint = 30.0,0.8,0.8
+OnTheDoorstep-out-tint = 20.0,0.6,0.4
+TheBlackRiders-tint = 135.0,0.55,0.5
+TheBlackRiders-out-tint = 65.0,0.15,0.3
+TheRoadDarkens-tint = 135.0,0.55,0.5
+TheRoadDarkens-out-tint = 65.0,0.15,0.3
+TheTreasonOfSaruman-tint = 15.0,0.85,0.55
+TheTreasonOfSaruman-out-tint = -120.0,0.35,0.3
+TheLandOfShadow-tint = 15.0,0.85,0.55
+TheLandOfShadow-out-tint = -120.0,0.35,0.3
+TheFlameOfTheWest-tint = 0.0,0.85,0.65
+TheFlameOfTheWest-out-tint = 10.0,0.3,0.3
+TheMountainOfFire-tint = 0.0,0.85,0.65
+TheMountainOfFire-out-tint = 10.0,0.3,0.3
+
+TheBattleOfLakeTown-tint = -160.0,0.4,0.3
+TheBattleOfLakeTown-out-tint = 35.0,0.5,0.5
+TheMassingAtOsgiliath-tint = -160.0,0.4,0.3
+TheMassingAtOsgiliath-out-tint = 35.0,0.5,0.5
+
+TheStoneOfErech-tint = 180.0,0.4,0.4
+TheStoneOfErech-out-tint = 35.0,0.5,0.5
+
+TheOldForest-tint = 130.0,0.5,0.3
+TheOldForest-out-tint = 35.0,0.5,0.5
+FogOnTheBarrowDowns-tint = 130.0,0.5,0.3
+FogOnTheBarrowDowns-out-tint = 35.0,0.5,0.5
+
+MurderAtThePrancingPony-tint = -130.0,0.5,0.35
+MurderAtThePrancingPony-out-tint = 35.0,0.5,0.5
+TheRuinsOfBelegost-tint = -130.0,0.5,0.35
+TheRuinsOfBelegost-out-tint = 35.0,0.5,0.5
+
+TheSiegeOfAnnuminas-tint = 0.0,0.8,0.4
+TheSiegeOfAnnuminas-out-tint = 35.0,0.5,0.5
+AttackOnDolGuldur-tint = 0.0,0.8,0.4
+AttackOnDolGuldur-out-tint = 35.0,0.5,0.5
+
+FirstAge-tint = -160.0,0.6,0.4
+FirstAge-out-tint = -160.0,0.1,0.25
+DoomMastered-tint = -160.0,0.6,0.4
+DoomMastered-out-tint = -160.0,0.1,0.25
+# tags
+# icon replacement start at font code U+2190
+Willpower-tag = wil
+Willpower-tag-replacement = <lrs>w</lrs>
+Attack-tag = att
+Attack-tag-replacement = <lrs>a</lrs>
+Threat-tag = thr
+Threat-tag-replacement = <lrs>t</lrs>
+Defense-tag = def
+Defense-tag-replacement = <lrs>d</lrs>
+Leadership-tag = lea
+Leadership-tag-replacement = <lrs>e</lrs>
+Tactics-tag = tac
+Tactics-tag-replacement = <lrs>c</lrs>
+Lore-tag = lor
+Lore-tag-replacement = <lrs>o</lrs>
+Spirit-tag = spi
+Spirit-tag-replacement = <lrs>s</lrs>
+Baggins-tag = bag
+Baggins-tag-replacement = <lrs>b</lrs>
+Fellowship-tag = fel
+Fellowship-tag-replacement = <lrs>f</lrs>
+Mastery-tag = mas
+Mastery-tag-replacement = <lrs>m</lrs>
+Unique-tag = uni
+Unique-tag-replacement = <lrs>u</lrs>
+Sailing-tag = sai
+Sailing-tag-replacement = <lrs>0</lrs>
+HeadingOnCourse-tag = hon
+HeadingOnCourse-tag-replacement = <lrs>1</lrs>
+HeadingOffCourse-tag = hof
+HeadingOffCourse-tag-replacement = <lrs>2</lrs>
+HeadingBad-tag = hb
+HeadingBad-tag-replacement = <lrs>3</lrs>
+HeadingWorst-tag = hw
+HeadingWorst-tag-replacement = <lrs>4</lrs>
+EyeOfSauron-tag = eos
+EyeOfSauron-tag-replacement = <lrs>5</lrs>
+Person-tag = per
+Person-tag-replacement = <lrs>6</lrs>
+# image replacements
+Shadow-tag = sha
+Shadow-tag-replacement = <image res://TheLordOfTheRingsLCG/image/ShadowSeparator.png 1.5in>
+HorizontalSpacer-tag = hs
+HorizontalSpacer-tag-replacement = <image res://TheLordOfTheRingsLCG/image/empty1x1.png 0.12in 1pt>
+VerticalSpacer-tag = vs
+VerticalSpacer-tag-replacement = <image res://TheLordOfTheRingsLCG/image/empty1x1.png 1pt 2pt>
+# style replaments
+LRLFont-tag = lr
+LRLFont-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}
+LRLSymbols-tag = lrs
+LRLSymbols-style = FAMILY: {Eons.namedObjects.LRL.LRLSymbols}
+Trait-tag = t
+Trait-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WEIGHT: BOLD; POSTURE: OBLIQUE
+Section-tag = se
+Section-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; FOREGROUND: #B00000
+# other
+Template-tint = 0.0,0.2,1.0
+Difficulty-tint = 0.0,0.2,1.0
+CustomDifficulty-tint = 0.0,0.2,1.0
+Region-tint = 0.0,0.2,1.0
+DebugLevel = 0
+BodyIcon-transparency = 2
+ShadowSeparatorSize = 1.5
+OptionSpecial = none

@@ -1,0 +1,7 @@
+Template = Standard
+Divider-Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Caspar David Friedrich - Abtei im Eichwald.jpg
+Artist = Caspar David Friedrich
+Collection = CoreSet
+EncounterSet = EscapeFromDolGuldur
+Layout = name
+IconSwap = false

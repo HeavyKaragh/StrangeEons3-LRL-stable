@@ -1,0 +1,23 @@
+Objective-Collection-portrait-clip-region = 312,512,12,12
+Objective-EncounterSet-portrait-clip-region = 299,249,36,36
+Objective-Portrait-portrait-clip-region = 0,50,375,256
+Objective-Portrait-portrait-rotation = 0
+
+Objective-Adventure-region = 54,57,266,14
+Objective-Artist-region = 29,511,104,14
+Objective-Body-region = 46,313,282,164
+Objective-CollectionInfo-region = 242,511,67,14
+Objective-CollectionNumber-region = 327,511,19,14
+Objective-Copyright-region = 135,511,105,14
+Objective-deco-region = 291,241,52,52
+Objective-EncounterSetNumber-region = 305,293,24,12
+Objective-Name-region = 45,22,284,26
+Objective-Subtype-region = 142,286,97,14
+Objective-Type-region = 120,487,136,19
+
+Objective-Body-shape = 0,0,0,0,0
+Objective-Burden-Body-shape = 70,70,332,0,0
+
+Objective-OptionLeft-region = 38,490,57,10
+Objective-OptionRight-region = 281,490,57,10
+Objective-OptionSpecial-region = 54,480,24,24

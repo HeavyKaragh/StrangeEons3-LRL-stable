@@ -1,0 +1,76 @@
+sphereDeco = TheLordOfTheRingsLCG/image/sphere-sd.jp2
+
+Ally-front-template = TheLordOfTheRingsLCG/template/Ally-ft.jp2
+Ally-Baggins-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Baggins.jp2
+Ally-Fellowship-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Fellowship.jp2
+Ally-Leadership-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Leadership.jp2
+Ally-Lore-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Lore.jp2
+Ally-Mastery-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Mastery.jp2
+Ally-Neutral-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Neutral.jp2
+Ally-Spirit-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Spirit.jp2
+Ally-Tactics-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Tactics.jp2
+Ally-tintable-sphereText = TheLordOfTheRingsLCG/template/Character-tb-tintable.jp2
+
+Attachment-front-template = TheLordOfTheRingsLCG/template/Attachment-ft.jp2
+Attachment-Boon-front-template = TheLordOfTheRingsLCG/template/Attachment-ft-Boon.jp2
+Attachment-Baggins-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Baggins.jp2
+Attachment-Fellowship-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Fellowship.jp2
+Attachment-Leadership-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Leadership.jp2
+Attachment-Lore-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Lore.jp2
+Attachment-Mastery-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Mastery.jp2
+Attachment-Neutral-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Neutral.jp2
+Attachment-Spirit-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Spirit.jp2
+Attachment-Tactics-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-Tactics.jp2
+Attachment-tintable-sphereText = TheLordOfTheRingsLCG/template/Attachment-tb-tintable.jp2
+
+Event-front-template = TheLordOfTheRingsLCG/template/Event-ft.jp2
+Event-Boon-front-template = TheLordOfTheRingsLCG/template/Event-ft-Boon.jp2
+Event-Baggins-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Baggins.jp2
+Event-Fellowship-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Fellowship.jp2
+Event-Leadership-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Leadership.jp2
+Event-Lore-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Lore.jp2
+Event-Mastery-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Mastery.jp2
+Event-Neutral-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Neutral.jp2
+Event-Spirit-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Spirit.jp2
+Event-Tactics-sphereText = TheLordOfTheRingsLCG/template/Event-tb-Tactics.jp2
+Event-tintable-sphereText = TheLordOfTheRingsLCG/template/Event-tb-tintable.jp2
+Event-sphereDeco = TheLordOfTheRingsLCG/image/leaf-sd.jp2
+
+Gift-front-template = TheLordOfTheRingsLCG/template/Gift-ft.jp2
+Gift-sphereDeco = TheLordOfTheRingsLCG/image/leaf-sd.jp2
+
+Haven-front-template = TheLordOfTheRingsLCG/template/Haven-ft.jp2
+Haven-front-TraitOut = TheLordOfTheRingsLCG/template/Haven-ft-TraitOut.jp2
+
+Hero-front-template = TheLordOfTheRingsLCG/template/Hero-ft.jp2
+Hero-sphereDeco = TheLordOfTheRingsLCG/template/Hero-sd.jp2
+Hero-Baggins-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Baggins.jp2
+Hero-Fellowship-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Fellowship.jp2
+Hero-Leadership-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Leadership.jp2
+Hero-Lore-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Lore.jp2
+Hero-Mastery-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Mastery.jp2
+Hero-Neutral-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Neutral.jp2
+Hero-Spirit-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Spirit.jp2
+Hero-Tactics-sphereText = TheLordOfTheRingsLCG/template/Character-tb-Tactics.jp2
+Hero-tintable-sphereText = TheLordOfTheRingsLCG/template/Character-tb-tintable.jp2
+Hero-Promo-front-template = TheLordOfTheRingsLCG/template/Hero-ft-Promo.jp2
+Hero-Promo-sphereDeco = TheLordOfTheRingsLCG/template/Hero-sd-Promo.jp2
+Hero-Promo-tintable-sphereText = TheLordOfTheRingsLCG/template/Hero-tb-tintable-Promo.jp2
+
+Player-horizontal-template = TheLordOfTheRingsLCG/template/Player-ht.jp2
+Player-vertical-template = TheLordOfTheRingsLCG/template/Player-vt.jp2
+
+SideQuestPlayer-front-template = TheLordOfTheRingsLCG/template/SideQuestPlayer-ft.jp2
+SideQuestPlayer-shadow = TheLordOfTheRingsLCG/template/SideQuestPlayer-sh.jp2
+SideQuestPlayer-sphereDeco = TheLordOfTheRingsLCG/template/SideQuestPlayer-sd.jp2
+SideQuestPlayer-Baggins-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Baggins.jp2
+SideQuestPlayer-Fellowship-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Fellowship.jp2
+SideQuestPlayer-Leadership-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Leadership.jp2
+SideQuestPlayer-Lore-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Lore.jp2
+SideQuestPlayer-Mastery-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Mastery.jp2
+SideQuestPlayer-Neutral-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Neutral.jp2
+SideQuestPlayer-Spirit-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Spirit.jp2
+SideQuestPlayer-Tactics-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-Tactics.jp2
+SideQuestPlayer-tintable-sphereText = TheLordOfTheRingsLCG/template/SideQuestPlayer-tb-tintable.jp2
+
+Treasure-front-template = TheLordOfTheRingsLCG/template/Treasure-ft.jp2

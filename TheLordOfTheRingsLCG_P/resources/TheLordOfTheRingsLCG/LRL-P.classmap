@@ -1,0 +1,12 @@
+@cat-characters
+	@LRL-Hero = diy:TheLordOfTheRingsLCG/diy/Hero.js | TheLordOfTheRingsLCG/ui/Hero.png | LRL
+	@LRL-Ally = diy:TheLordOfTheRingsLCG/diy/Ally.js | TheLordOfTheRingsLCG/ui/Ally.png | LRL
+@cat-inventory
+	@LRL-Gift = diy:TheLordOfTheRingsLCG/diy/Gift.js | TheLordOfTheRingsLCG/ui/Gift.png | LRL
+	@LRL-Attachment = diy:TheLordOfTheRingsLCG/diy/Attachment.js | TheLordOfTheRingsLCG/ui/Attachment.png | LRL
+	@LRL-Treasure = diy:TheLordOfTheRingsLCG/diy/Treasure.js | TheLordOfTheRingsLCG/ui/Treasure.png | LRL
+@cat-effects
+	@LRL-Event = diy:TheLordOfTheRingsLCG/diy/Event.js | TheLordOfTheRingsLCG/ui/Event.png | LRL
+@cat-rules
+	@LRL-Haven = diy:TheLordOfTheRingsLCG/diy/Haven.js | TheLordOfTheRingsLCG/ui/Haven.png | LRL
+	@LRL-SideQuestPlayer = diy:TheLordOfTheRingsLCG/diy/SideQuestPlayer.js | TheLordOfTheRingsLCG/ui/SideQuestPlayer.png | LRL

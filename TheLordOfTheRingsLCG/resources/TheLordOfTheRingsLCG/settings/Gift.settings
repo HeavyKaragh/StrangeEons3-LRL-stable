@@ -1,0 +1,17 @@
+Gift-Collection-portrait-clip-region = 325,512,12,12
+Gift-CustomSphere-portrait-clip-region = 301,213,40,40
+Gift-Portrait-portrait-clip-region = 0,32,375,232
+
+Gift-Artist-region = 18,511,114,14
+Gift-Body-region = 35,272,306,204
+Gift-CollectionInfo-region = 242,511,80,14
+Gift-CollectionNumber-region = 340,511,19,14
+Gift-Copyright-region = 135,511,105,14
+Gift-sphereColour1-region = 40,19,25,25
+Gift-sphereColour2-region = 310,19,25,25
+Gift-Name-region = 73,20,228,24
+Gift-Type-region = 122,486,130,18
+
+Gift-sphereDeco-region = 275,187,100,80
+
+Gift-Body-shape = 36,36,280,0,0

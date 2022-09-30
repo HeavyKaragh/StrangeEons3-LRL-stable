@@ -1,0 +1,33 @@
+Quest-Collection-portrait-clip-region = 472,362,12,12
+Quest-EncounterSet-portrait-clip-region = 457,174,36,36
+Quest-EncounterSet1-portrait-clip-region = 428,198,22,22
+Quest-EncounterSet2-portrait-clip-region = 404,198,22,22
+Quest-EncounterSet3-portrait-clip-region = 380,198,22,22
+Quest-EncounterSet4-portrait-clip-region = 356,198,22,22
+Quest-EncounterSet5-portrait-clip-region = 332,198,22,22
+Quest-PortraitBack-portrait-clip-region = 0,0,525,375
+Quest-PortraitBack-portrait-rotation = 0
+Quest-Portrait-portrait-clip-region = 0,0,525,375
+Quest-Portrait-portrait-rotation = 0
+
+Quest-adapter-region = 284,181,186,66
+Quest-Adventure-region = 172,56,270,16
+Quest-Artist-region = 19,361,180,14
+Quest-BodyBack-region = 30,231,466,120
+Quest-Body-region = 30,231,466,120
+Quest-CollectionInfo-region = 328,361,141,14
+Quest-CollectionNumber-region = 487,361,19,14
+Quest-Copyright-region = 201,361,125,14
+Quest-Name-region = 117,22,378,26
+Quest-Progress-region = 35,187,36,24
+Quest-Stage-region = 23,25,60,42
+Quest-BodyBack-shape = 0,0,338,0,64
+
+Quest-difficultyDeco-region = 449,166,52,52
+
+Quest-Nightmare-Body-region = 38,237,452,108
+Quest-Nightmare-BodyBack-region = 36,236,456,110
+Quest-Nightmare-BodyBack-shape = 0,0,334,0,64
+Quest-Nightmare-Adventure-region = 170,57,276,12
+
+Quest-OptionRight-region = 447,343,56,9

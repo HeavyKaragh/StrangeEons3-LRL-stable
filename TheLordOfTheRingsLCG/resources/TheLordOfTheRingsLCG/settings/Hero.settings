@@ -1,0 +1,53 @@
+Hero-Collection-portrait-clip-region = 322,512,12,12
+Hero-CustomSphere-portrait-clip-region = 25,465,38,38
+Hero-Portrait-portrait-clip-region = 74,0,301,306
+Hero-Portrait-portrait-rotation = 0
+Hero-BodyIcon-portrait-clip-region = 131,354,112,112
+
+Hero-sphereText-region = 20,306,332,202
+Hero-Artist-region = 19,511,109,14
+Hero-Attack-region = 53,140,16,16
+Hero-Body-region = 36,343,304,135
+Hero-CollectionInfo-region = 247,511,72,14
+Hero-CollectionNumber-region = 337,511,19,14
+Hero-Copyright-region = 130,511,115,14
+Hero-Defense-region = 53,182,16,16
+Hero-HitPoints-region = 46,252,54,40
+Hero-Name-region = 80,307,214,24
+Hero-ThreatCost-region = 55,31,36,24
+Hero-Type-region = 121,487,132,18
+Hero-Willpower-region = 53,98,16,16
+
+Hero-Body-shape = 0,0,457,36,0
+#Hero-Neutral-Body-shape = 0,0,0,0,0
+Hero-sphereDeco-region = 5,424,100,92
+#Hero-sphereText-region = 44,433,290,78
+
+Hero-OptionRight-region = 285,490,57,10
+
+Hero-PortraitPromo-portrait-clip-region = 0,0,375,525
+Hero-Promo-CustomSphere-portrait-clip-region = 300,406,37,37
+Hero-Promo-Collection-portrait-clip-region = 295,497,10,10
+
+Hero-Promo-sphereText-region = 44,433,290,78
+Hero-Promo-sphereDeco-region = 240,390,110,100
+Hero-Promo-Attack-region = 14,100,27,20
+Hero-Promo-Body-region = 52,445,272,61
+Hero-Promo-Body-inBox-region = 52,445,272,52
+Hero-Promo-Body-shape = 0,90,463,0,0
+#Hero-Promo-BodyIcon-region = 158,445,60,60
+Hero-Promo-Defense-region = 14,136,27,20
+Hero-Promo-HitPoints-region = 31,407,50,37
+Hero-Promo-Name-region = 85,412,206,24
+#Hero-Promo-OptionRight-region = 252,496,66,12
+Hero-Promo-ThreatCost-region = 30,25,27,20
+Hero-Promo-Type-region = 256,442,50,16
+Hero-Promo-Willpower-region = 14,65,27,20
+
+Hero-Promo-Artist-region = 58,497,90,10
+Hero-Promo-Copyright-region = 149,497,90,10
+Hero-Promo-CollectionInfo-region = 240,497,54,10
+Hero-Promo-CollectionNumber-region = 306,497,12,10
+
+Hero-Promo-stat-tint = 180.0,0.0,1.0
+

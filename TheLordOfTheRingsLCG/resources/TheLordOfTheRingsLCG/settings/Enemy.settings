@@ -1,0 +1,33 @@
+Enemy-Collection-portrait-clip-region = 322,512,12,12
+Enemy-EncounterSet-portrait-clip-region = 305,254,36,36
+Enemy-Portrait-portrait-clip-region = 77,0,298,306
+Enemy-Portrait-portrait-rotation = 0
+
+Enemy-difficultyDeco-region = 297,245,52,52
+
+Enemy-Artist-region = 19,511,109,14
+Enemy-Attack-region = 54,142,16,16
+Enemy-Body-region = 36,344,304,132
+Enemy-CollectionInfo-region = 247,511,72,14
+Enemy-CollectionNumber-region = 337,511,19,14
+Enemy-Copyright-region = 130,511,115,14
+Enemy-Defense-region = 54,184,16,16
+Enemy-EncounterSetNumber-region = 311,298,24,12
+Enemy-Engagement-region = 56,32,36,24
+Enemy-HitPoints-region = 48,253,54,40
+Enemy-Name-region = 88,308,200,24
+Enemy-Threat-region = 54,101,16,16
+Enemy-Type-region = 118,487,142,19
+
+Enemy-OptionLeft-region = 30,490,57,10
+Enemy-OptionRight-region = 289,490,57,10
+Enemy-OptionSpecial-region = 36,480,24,24
+
+Enemy-Nightmare-EncounterSet-portrait-clip-region = 308,254,36,36
+Enemy-Nightmare-EncounterSetNumber-region = 314,297,24,12
+Enemy-Nightmare-Body-region = 38,344,300,132
+Enemy-Nightmare-Name-region = 70,308,236,25
+
+Enemy-Ship-EncounterSetNumber-region = 311,294,24,12
+Enemy-Ship-Body-region = 40,344,296,132
+

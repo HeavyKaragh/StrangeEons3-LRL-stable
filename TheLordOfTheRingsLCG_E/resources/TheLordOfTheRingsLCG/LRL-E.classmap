@@ -1,0 +1,11 @@
+@cat-enemies
+	@LRL-Enemy = diy:TheLordOfTheRingsLCG/diy/Enemy.js | TheLordOfTheRingsLCG/ui/Enemy.png | LRL
+@cat-characters
+	@LRL-ObjectiveAlly = diy:TheLordOfTheRingsLCG/diy/ObjectiveAlly.js | TheLordOfTheRingsLCG/ui/ObjectiveAlly.png | LRL
+@cat-effects
+	@LRL-Treachery = diy:TheLordOfTheRingsLCG/diy/Treachery.js | TheLordOfTheRingsLCG/ui/Treachery.png | LRL
+	@LRL-Location = diy:TheLordOfTheRingsLCG/diy/Location.js | TheLordOfTheRingsLCG/ui/Location.png | LRL
+@cat-rules
+	@LRL-Objective = diy:TheLordOfTheRingsLCG/diy/Objective.js | TheLordOfTheRingsLCG/ui/Objective.png | LRL
+	@LRL-Presence = diy:TheLordOfTheRingsLCG/diy/Presence.js | TheLordOfTheRingsLCG/ui/Presence.png | LRL
+	@LRL-SideQuestEncounter = diy:TheLordOfTheRingsLCG/diy/SideQuestEncounter.js | TheLordOfTheRingsLCG/ui/SideQuestEncounter.png | LRL

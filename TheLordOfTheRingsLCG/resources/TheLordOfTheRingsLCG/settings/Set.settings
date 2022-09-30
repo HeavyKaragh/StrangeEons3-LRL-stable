@@ -1,0 +1,12 @@
+Set-Collection-portrait-clip-region = 337,512,12,12
+Set-EncounterSet-portrait-clip-region = 21,23,41,41
+Set-Portrait-portrait-clip-region = 0,46,375,204
+Set-Portrait-portrait-rotation = 0
+
+Set-Artist-region = 19,511,109,14
+Set-Body-region = 34,263,308,212
+Set-BodyBack-region = 34,32,308,462
+Set-CollectionInfo-region = 247,511,88,14
+Set-Copyright-region = 130,511,115,14
+Set-Name-region = 85,20,235,24
+Set-Type-region = 49,487,278,20

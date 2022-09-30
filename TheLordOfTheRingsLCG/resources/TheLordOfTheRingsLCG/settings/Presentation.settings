@@ -1,0 +1,18 @@
+Presentation-Collection-portrait-clip-region = 337,512,12,12
+Presentation-Portrait-portrait-clip-region = 0,122,375,280
+Presentation-Portrait-portrait-rotation = 0
+
+Presentation-Artist-region = 19,511,109,14
+Presentation-Body-region = 26,50,324,436
+Presentation-CollectionInfo-region = 247,511,88,14
+Presentation-Copyright-region = 130,511,115,14
+Presentation-Type-region = 100,32,175,14
+Presentation-GameName-region = 48,18,278,86
+Presentation-Name-region = 48,418,278,104
+Presentation-GameLogo-region = 40,12,296,82
+
+Presentation-Nightmare-Body-region = 38,38,298,437
+Presentation-Nightmare-Type-region = 114,487,146,16
+
+Presentation-Name-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; SIZE: 20.0; FOREGROUND: #F0F0F0
+Presentation-GameName-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; SIZE: 20.0; FOREGROUND: #F0F0F0

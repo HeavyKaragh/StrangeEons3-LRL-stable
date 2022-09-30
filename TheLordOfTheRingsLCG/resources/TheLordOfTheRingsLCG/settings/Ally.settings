@@ -1,0 +1,25 @@
+Ally-Collection-portrait-clip-region = 322,512,12,12
+Ally-CustomSphere-portrait-clip-region = 301,255,40,40
+Ally-Portrait-portrait-clip-region = 70,0,305,306
+Ally-Portrait-portrait-rotation = 0
+Ally-BodyIcon-portrait-clip-region = 131,354,112,112
+
+Ally-sphereColour1-region = 15,16,25,25
+Ally-sphereColour2-region = 15,217,25,25
+Ally-sphereText-region = 22,305,331,203
+Ally-sphereDeco-region = 276,240,90,70
+
+Ally-Artist-region = 19,511,109,14
+Ally-Attack-region = 53,142,16,16
+Ally-Body-region = 37,344,303,133
+Ally-Copyright-region = 130,511,115,14
+Ally-CollectionInfo-region = 247,511,72,14
+Ally-CollectionNumber-region = 337,511,19,14
+Ally-Defense-region = 53,185,16,16
+Ally-HitPoints-region = 47,252,54,40
+Ally-Name-region = 82,309,212,24
+Ally-OptionLeft-region = 32,490,57,10
+Ally-OptionRight-region = 286,490,57,10
+Ally-ResourceCost-region = 49,23,50,35
+Ally-Type-region = 122,487,130,16
+Ally-Willpower-region = 53,100,16,16

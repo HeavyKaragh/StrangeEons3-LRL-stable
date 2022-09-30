@@ -1,0 +1,39 @@
+QuestSheet-Collection-portrait-clip-region = 58,176,40,40
+QuestSheet-CollectionBis-portrait-clip-region = 1152,176,40,40
+QuestSheet-Portrait-portrait-clip-region = 128,1000,1000,524
+
+QuestSheet-EncounterSet-portrait-clip-region = 313,468,36,36
+QuestSheet-EncounterSet1-portrait-clip-region = 380,468,36,36
+QuestSheet-EncounterSet2-portrait-clip-region = 246,468,36,36
+QuestSheet-EncounterSet3-portrait-clip-region = 447,468,36,36
+QuestSheet-EncounterSet4-portrait-clip-region = 179,468,36,36
+QuestSheet-EncounterSet5-portrait-clip-region = 514,468,36,36
+QuestSheet-adapter-corrector = 34
+QuestSheet-adapter-region = 130,448,470,78
+QuestSheet-GameLogo-region = 90,100,540,320
+QuestSheet-Page-odd-region = 1144,1541,54,40
+QuestSheet-Page-even-region = 51,1539,54,40
+
+QuestSheet-campaignColourTL-region = 53,58,50,50
+QuestSheet-campaignColourTR-region = 1148,59,50,50
+QuestSheet-campaignColourBL-region = 53,1533,50,50
+QuestSheet-campaignColourBR-region = 1146,1535,50,50
+
+QuestSheet-Artist-region = 443,1512,362,28
+QuestSheet-BodyLeft-region = 128,120,480,1386
+QuestSheet-BodyRight-region = 644,120,480,1386
+QuestSheet-GameName-region = 118,204,496,148
+QuestSheet-Name-region = 118,396,496,50
+QuestSheet-Copyright-region = 120,1512,320,28
+QuestSheet-CollectionInfo-region = 808,1512,320,28
+
+QuestSheet-GameName-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; SIZE: 20.0; FOREGROUND: #F0F0F0
+QuestSheet-Name-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; SIZE: 16.0; FOREGROUND: #F0F0F0
+QuestSheet-Body-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 12.0; FOREGROUND: #0F0F0F
+QuestSheet-Artist-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 10.0; FOREGROUND: #0F0F0F; WEIGHT: BOLD
+QuestSheet-Artist-alignment = middle,right
+QuestSheet-Artist-alignment = right
+QuestSheet-Copyright-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 10.0; FOREGROUND: #0F0F0F; WEIGHT: BOLD
+QuestSheet-Copyright-alignment = middle,left
+QuestSheet-CollectionInfo-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 10.0; FOREGROUND: #0F0F0F; WEIGHT: BOLD
+QuestSheet-CollectionInfo-alignment = middle,center

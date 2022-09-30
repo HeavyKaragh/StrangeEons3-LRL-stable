@@ -1,0 +1,18 @@
+SideQuestEncounter-Collection-portrait-clip-region = 472,362,12,12
+SideQuestEncounter-EncounterSet-portrait-clip-region = 461,177,36,36
+SideQuestEncounter-Portrait-portrait-clip-region = 0,0,525,375
+
+SideQuestEncounter-Artist-region = 19,361,190,14
+SideQuestEncounter-Body-region = 30,232,464,122
+SideQuestEncounter-CollectionInfo-region = 318,361,151,14
+SideQuestEncounter-CollectionNumber-region = 487,361,19,14
+SideQuestEncounter-Copyright-region = 211,361,105,14
+SideQuestEncounter-EncounterSetNumber-region = 467,217,24,12
+SideQuestEncounter-Name-region = 72,20,378,26
+SideQuestEncounter-Progress-region = 32,189,36,24
+
+SideQuestEncounter-Body-shape = 0,0,336,0,62
+
+SideQuestEncounter-difficultyDeco-region = 453,168,52,52
+
+SideQuestEncounter-OptionRight-region = 447,343,56,9

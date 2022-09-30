@@ -1,0 +1,14 @@
+Campaign-Collection-portrait-clip-region = 322,512,12,12
+Campaign-EncounterSet-portrait-clip-region = 305,178,36,36
+Campaign-Portrait-portrait-clip-region = 0,0,375,234
+Campaign-Portrait-portrait-rotation = 0
+
+Campaign-Cycle-region = 52,231,270,19
+Campaign-Artist-region = 19,511,109,14
+Campaign-BodyBack-region = 40,44,296,442
+Campaign-Body-region = 36,262,302,214
+Campaign-CollectionInfo-region = 247,511,72,14
+Campaign-CollectionNumber-region = 337,511,19,14
+Campaign-Copyright-region = 130,511,115,14
+Campaign-Name-region = 82,20,210,24
+Campaign-Type-region = 117,488,140,18

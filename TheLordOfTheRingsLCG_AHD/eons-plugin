@@ -1,0 +1,29 @@
+id = CATALOGUEID{1221fe8f-c7f1-4244-b3a3-ef05e2daf95c:2020-0-13-17-31-0-936}
+
+priority = LOW
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-hidden = depends
+catalog-name = The Lord of the Rings LCG, accesories HD
+catalog-name_es_ES = El Señor de los Anillos LCG, accesorios en AD
+catalog-name_it_IT = Il Signore degli Anelli LCG, accessori HD
+
+catalog-credit = Karagh, GeckoTH
+catalog-description = <p>This plug-in allows creating componentes for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>This \
+    add-on includes high definition templates for components in the \
+    <b>accesories</b> add-on.</p>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.</p\n<p>Este añadido incluye plantillas en alta definición para los \
+    componentes del añadido <b>accesorios</b>.</p>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Questo add-on include template HD per l'add-on <b>accessori</b>.</p>
+
+catalog-game = LRL
+catalog-tags = hd, beta
+catalog-minver = 3784
+
+res://TheLordOfTheRingsLCG/LRL-AHD.js

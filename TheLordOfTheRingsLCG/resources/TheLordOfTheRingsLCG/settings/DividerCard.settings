@@ -1,0 +1,18 @@
+DividerCard-Collection-portrait-clip-region = 32,106,16,16
+DividerCard-CollectionBack-portrait-clip-region = 327,106,16,16
+DividerCard-EncounterSet-portrait-clip-region = 26,26,28,28
+DividerCard-EncounterSetBack-portrait-clip-region = 321,26,28,28
+DividerCard-Portrait-portrait-clip-region = 0,120,375,405
+
+DividerCard-Artist-region = 25,500,325,25
+DividerCard-Name-region = 62,12,260,94
+DividerCard-NameBack-region = 53,12,260,94
+DividerCard-EncounterSet-ed-region = 20,20,40,40
+DividerCard-EncounterSetBack-ed-region = 315,20,40,40
+DividerCard-Collection-ed-region = 28,102,24,24
+DividerCard-CollectionBack-ed-region = 323,102,24,24
+
+DividerCard-tintable-region = 40,0,295,115
+DividerCard-out-tintable-region = 0,0,375,115
+DividerCard-Name-style = FAMILY: {Eons.namedObjects.LRL.WindFont}; SIZE: 16.0; FOREGROUND: #F0F0F0
+DividerCard-Artist-alignment = middle,center

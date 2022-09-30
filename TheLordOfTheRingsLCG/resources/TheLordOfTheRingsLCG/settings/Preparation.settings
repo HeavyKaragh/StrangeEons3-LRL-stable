@@ -1,0 +1,15 @@
+Preparation-Collection-portrait-clip-region = 322,512,12,12
+Preparation-EncounterSet-portrait-clip-region = 306,249,36,36
+Preparation-Portrait-portrait-clip-region = 0,62,375,240
+Preparation-Portrait-portrait-rotation = 0
+
+Preparation-Artist-region = 19,511,109,14
+Preparation-BodyBack-region = 38,37,298,438
+Preparation-Body-region = 38,311,298,186
+Preparation-CollectionInfo-region = 247,511,72,14
+Preparation-CollectionNumber-region = 337,511,19,14
+Preparation-Copyright-region = 130,511,115,14
+Preparation-EncounterSetNumber-region = 312,294,24,12
+Preparation-Name-region = 78,24,221,31
+Preparation-Type-region = 115,487,144,16
+Preparation-Name-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 11.0; FOREGROUND: #0F0F0F

@@ -1,0 +1,20 @@
+SideQuestPlayer-Collection-portrait-clip-region = 472,363,12,12
+SideQuestPlayer-Portrait-portrait-clip-region = 0,0,525,375
+SideQuestPlayer-CustomSphere-portrait-clip-region = 459,174,36,36
+SideQuestPlayer-BodyIcon-portrait-clip-region = 210,231,120,120
+
+SideQuestPlayer-Artist-region = 19,361,190,14
+SideQuestPlayer-Body-region = 30,230,464,120
+SideQuestPlayer-CollectionInfo-region = 318,361,151,14
+SideQuestPlayer-CollectionNumber-region = 487,361,19,14
+SideQuestPlayer-Copyright-region = 211,361,105,14
+SideQuestPlayer-Name-region = 116,22,382,24
+SideQuestPlayer-Progress-region = 35,188,36,24
+SideQuestPlayer-OptionRight-region = 447,343,56,9
+SideQuestPlayer-ResourceCost-region = 28,25,50,36
+
+SideQuestPlayer-sphereColour-region = 445,210,63,13
+SideQuestPlayer-sphereText-region = 0,0,525,375
+SideQuestPlayer-sphereDeco-region = 446,162,62,64
+SideQuestPlayer-shadow-region = 0,0,525,375
+

@@ -1,0 +1,24 @@
+Treachery-Collection-portrait-clip-region = 322,512,12,12
+Treachery-EncounterSet-portrait-clip-region = 305,254,36,36
+Treachery-Portrait-portrait-clip-region = 54,0,321,308
+Treachery-Portrait-portrait-rotation = 0
+
+Treachery-Artist-region = 19,511,109,14
+Treachery-Body-region = 42,323,292,154
+Treachery-CollectionInfo-region = 247,511,72,14
+Treachery-CollectionNumber-region = 337,511,19,14
+Treachery-Copyright-region = 130,511,115,14
+Treachery-deco-region = 297,245,52,52
+Treachery-EncounterSetNumber-region = 311,298,24,12
+Treachery-Name-region = 33,87,24,170
+Treachery-Subtype-region = 145,289,92,14
+Treachery-Type-region = 115,487,144,19
+
+Treachery-Burden-Body-shape = 30,20,270,0,0
+Treachery-Burden-EncounterSet-portrait-clip-region = 304,254,37,37
+
+Treachery-OptionLeft-region = 30,490,57,10
+Treachery-OptionRight-region = 289,490,57,10
+Treachery-OptionSpecial-region = 36,480,24,24
+
+Treachery-difficultyDeco-region = 297,245,52,52

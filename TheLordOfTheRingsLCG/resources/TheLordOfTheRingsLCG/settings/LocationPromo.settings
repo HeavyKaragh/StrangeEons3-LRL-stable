@@ -1,0 +1,11 @@
+LocationPromo-Collection-portrait-clip-region = 322,512,12,12
+LocationPromo-EncounterSet-portrait-clip-region = 44,58,36,36
+LocationPromo-Portrait-portrait-clip-region = 0,0,375,525
+
+LocationPromo-Artist-region = 19,511,109,14
+LocationPromo-CollectionInfo-region = 247,511,72,14
+LocationPromo-CollectionNumber-region = 337,511,19,14
+LocationPromo-Copyright-region = 130,511,115,14
+LocationPromo-deco-region = 37,51,52,52
+LocationPromo-Name-region = 82,20,208,24
+LocationPromo-Type-region = 118,488,138,18

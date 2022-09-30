@@ -1,0 +1,26 @@
+ObjectiveAlly-Collection-portrait-clip-region = 312,512,12,12
+ObjectiveAlly-EncounterSet-portrait-clip-region = 299,249,36,36
+ObjectiveAlly-Portrait-portrait-clip-region = 70,54,305,252
+ObjectiveAlly-Portrait-portrait-rotation = 0
+
+ObjectiveAlly-Adventure-region = 54,56,266,14
+ObjectiveAlly-Artist-region = 29,511,104,14
+ObjectiveAlly-Attack-region = 50,137,16,16
+ObjectiveAlly-Body-region = 44,314,284,163
+ObjectiveAlly-CollectionInfo-region = 242,511,67,14
+ObjectiveAlly-CollectionNumber-region = 327,511,19,14
+ObjectiveAlly-Copyright-region = 135,511,105,14
+ObjectiveAlly-Defense-region = 50,179,16,16
+ObjectiveAlly-deco-region = 291,240,52,52
+ObjectiveAlly-EncounterSetNumber-region = 305,293,24,12
+ObjectiveAlly-HitPoints-region = 43,249,54,40
+ObjectiveAlly-Name-region = 45,21,284,28
+ObjectiveAlly-Subtype-region = 129,286,120,16
+ObjectiveAlly-Type-region = 118,488,139,16
+ObjectiveAlly-Willpower-region = 50,90,16,16
+
+ObjectiveAlly-Boon-HitPoints-region = 44,250,54,40
+
+ObjectiveAlly-OptionLeft-region = 38,490,57,10
+ObjectiveAlly-OptionRight-region = 281,490,57,10
+ObjectiveAlly-OptionSpecial-region = 54,480,24,24

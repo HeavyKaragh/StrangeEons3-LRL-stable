@@ -1,0 +1,23 @@
+Location-Collection-portrait-clip-region = 322,512,12,12
+Location-EncounterSet-portrait-clip-region = 304,253,36,36
+Location-Portrait-portrait-clip-region = 0,48,375,257
+Location-Portrait-portrait-rotation = 0
+
+Location-Artist-region = 19,511,109,14
+Location-Body-region = 40,312,294,164
+Location-CollectionInfo-region = 247,511,72,14
+Location-CollectionNumber-region = 337,511,19,14
+Location-Copyright-region = 130,511,115,14
+Location-deco-region = 297,245,52,52
+Location-EncounterSetNumber-region = 310,299,24,12
+Location-Name-region = 82,20,207,24
+Location-Progress-region = 37,268,36,24
+Location-Threat-region = 40,73,16,16
+Location-Type-region = 118,488,138,18
+
+Location-Nightmare-Body-region = 40,322,296,154
+Location-Nightmare-EncounterSetNumber-region = 310,298,24,12
+
+Location-OptionLeft-region = 28,490,57,10
+Location-OptionRight-region = 291,490,57,10
+Location-OptionSpecial-region = 36,480,24,24

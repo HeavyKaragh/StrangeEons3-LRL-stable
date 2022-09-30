@@ -1,0 +1,25 @@
+Attachment-Collection-portrait-clip-region = 322,512,12,12
+Attachment-CustomSphere-portrait-clip-region = 301,255,40,40
+Attachment-Portrait-portrait-clip-region = 33,37,308,266
+Attachment-Portrait-portrait-rotation = 0
+Attachment-BodyIcon-portrait-clip-region = 131,340,112,112
+
+Attachment-sphereColour1-region = 18,257,25,25
+Attachment-sphereColour2-region = 332,51,25,25
+Attachment-sphereText-region = 22,305,331,203
+Attachment-sphereDeco-region = 276,239,90,70
+
+Attachment-tintable-region = 21,304,333,204
+Attachment-Artist-region = 19,511,109,14
+Attachment-Body-region = 37,313,303,164
+Attachment-CollectionInfo-region = 247,511,72,14
+Attachment-CollectionNumber-region = 337,511,19,14
+Attachment-Copyright-region = 130,511,115,14
+Attachment-Name-region = 107,19,195,24
+Attachment-ResourceCost-region = 21,29,50,35
+Attachment-Boon-ResourceCost-region = 19,29,50,35
+Attachment-Subtype-region = 128,287,124,14
+Attachment-Type-region = 122,486,132,16
+
+Attachment-OptionLeft-region = 32,490,57,10
+Attachment-OptionRight-region = 287,490,57,10

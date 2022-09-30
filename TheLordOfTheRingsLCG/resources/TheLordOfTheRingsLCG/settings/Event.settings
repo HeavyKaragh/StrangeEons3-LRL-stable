@@ -1,0 +1,22 @@
+Event-Collection-portrait-clip-region = 322,512,12,12
+Event-CustomSphere-portrait-clip-region = 301,254,40,40
+Event-Portrait-portrait-clip-region = 58,0,317,304
+Event-Portrait-portrait-rotation = 0
+Event-BodyIcon-portrait-clip-region = 131,340,112,112
+
+Event-sphereText-region = 21,304,332,204
+Event-sphereColour-region = 34,256,25,25
+Event-sphereDeco-region = 275,228,100,80
+
+Event-Artist-region = 19,511,109,14
+Event-Body-region = 38,317,298,160
+Event-CollectionInfo-region = 247,511,72,14
+Event-CollectionNumber-region = 337,511,19,14
+Event-Copyright-region = 130,511,115,14
+Event-Name-region = 35,70,24,176
+Event-ResourceCost-region = 22,26,50,35
+Event-Type-region = 122,487,130,18
+Event-Subtype-region = 128,286,124,14
+
+Event-OptionLeft-region = 32,490,57,10
+Event-OptionRight-region = 287,490,57,10

@@ -1,0 +1,7 @@
+Template = CoreSet
+DividerCard-Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Caspar David Friedrich - Abtei im Eichwald.jpg
+Artist = Caspar David Friedrich
+Template-tint = 40.0,0.7,0.9
+TemplateOut-tint = -160.0,0.5,0.4
+EncounterSet = EscapeFromDolGuldur
+Collection = CoreSet

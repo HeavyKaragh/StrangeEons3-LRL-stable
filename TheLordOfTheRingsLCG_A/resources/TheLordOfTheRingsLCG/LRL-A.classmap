@@ -1,0 +1,9 @@
+@cat-markers
+	@LRL-QuestSheet = diy:TheLordOfTheRingsLCG/diy/QuestSheet.js | TheLordOfTheRingsLCG/ui/QuestSheet.png | LRL
+	@LRL-RulesCard = diy:TheLordOfTheRingsLCG/diy/RulesCard.js | TheLordOfTheRingsLCG/ui/RulesCard.png | LRL
+	@LRL-Scenario = diy:TheLordOfTheRingsLCG/diy/Scenario.js | TheLordOfTheRingsLCG/ui/Scenario.png | LRL
+	@LRL-Presentation = diy:TheLordOfTheRingsLCG/diy/Presentation.js | TheLordOfTheRingsLCG/ui/Presentation.png | LRL
+	@LRL-Set = diy:TheLordOfTheRingsLCG/diy/Set.js | TheLordOfTheRingsLCG/ui/Set.png | LRL
+	@LRL-Divider = diy:TheLordOfTheRingsLCG/diy/Divider.js | TheLordOfTheRingsLCG/ui/Divider.png | LRL
+	@LRL-DividerCard = diy:TheLordOfTheRingsLCG/diy/DividerCard.js | TheLordOfTheRingsLCG/ui/DividerCard.png | LRL
+	@LRL-LocationPromo = diy:TheLordOfTheRingsLCG/diy/LocationPromo.js | TheLordOfTheRingsLCG/ui/LocationPromo.png | LRL

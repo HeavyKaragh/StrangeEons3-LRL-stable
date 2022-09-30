@@ -1,0 +1,31 @@
+Scenario-Collection-portrait-clip-region = 337,512,12,12
+Scenario-Portrait-portrait-clip-region = 0,58,375,220
+Scenario-Portrait-portrait-rotation = 0
+Scenario-EncounterSet-portrait-clip-region = 21,21,42,42
+Scenario-EncounterSet1-portrait-clip-region = 22,72,22,22
+Scenario-EncounterSet2-portrait-clip-region = 22,95,22,22
+Scenario-EncounterSet3-portrait-clip-region = 22,118,22,22
+Scenario-EncounterSet4-portrait-clip-region = 22,141,22,22
+Scenario-EncounterSet5-portrait-clip-region = 22,164,22,22
+
+Scenario-adapter-region = 12,54,40,146
+Scenario-Artist-region = 19,511,109,14
+Scenario-BodyBack-region = 34,32,308,466
+Scenario-Body-region = 34,287,308,190
+Scenario-OptionLeft-region = 32,480,57,9
+Scenario-OptionRight-region = 287,480,57,9
+Scenario-CollectionInfo-region = 247,511,88,14
+Scenario-CollectionNumber-region = 350,511,19,14
+Scenario-Copyright-region = 130,511,115,14
+Scenario-Cycle-region = 86,51,252,14
+Scenario-Name-region = 81,22,262,23
+Scenario-Type-region = 117,488,140,16
+
+Scenario-difficultyDeco-region = 0,0,375,525
+
+Scenario-Artist-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+Scenario-CollectionInfo-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+Scenario-CollectionNumber-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+Scenario-Copyright-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 4.5; FOREGROUND: #0F0F0F
+
+Scenario-Cycle-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 6; FOREGROUND: #000000

@@ -1,0 +1,44 @@
+Divider-Collection-portrait-clip-region = 30,14,28,28
+Divider-EncounterSet-portrait-clip-region = 391,14,28,28
+Divider-horizontal-region = 0,0,525,425
+Divider-vertical-region = 0,0,375,575
+Divider-Portrait-portrait-clip-region = 25,75,475,325
+Divider-horizontal-adapter-region = 0,0,525,50
+Divider-horizontal-Name-region = 78,16,296,22
+Divider-horizontal-Name-back-region = 152,16,296,22
+Divider-horizontal-Artist-region = 150,407,225,18
+Divider-horizontal-Collection-region = 31,14,28,28
+Divider-horizontal-EncounterSet-region = 392,14,28,28
+Divider-horizontal-Collection-back-region = 106,14,28,28
+Divider-horizontal-EncounterSet-back-region = 467,14,28,28
+Divider-horizontal-Collection-left-region = 61,14,28,28
+Divider-horizontal-Collection-leftmiddle-region = 186,14,28,28
+Divider-horizontal-Collection-rightmiddle-region = 311,14,28,28
+Divider-horizontal-Collection-right-region = 436,14,28,28
+
+Divider-PortraitV-portrait-clip-region = 25,75,325,475
+Divider-vertical-adapter-region = 0,0,375,50
+Divider-vertical-Name-region = 78,16,218,22
+Divider-vertical-Artist-region = 75,557,225,18
+Divider-vertical-Collection-region = 30,14,28,28
+Divider-vertical-Collection-back-region = 30,14,28,28
+Divider-vertical-EncounterSet-region = 316,14,28,28
+Divider-vertical-EncounterSet-back-region = 316,14,28,28
+Divider-vertical-Collection-left-region = 43,14,28,28
+Divider-vertical-Collection-leftmiddle-region = 130,14,28,28
+Divider-vertical-Collection-rightmiddle-region = 217,14,28,28
+Divider-vertical-Collection-right-region = 304,14,28,28
+
+Divider-Standard-tint = 0.0,0.0,0.5
+Divider-Neutral-tint = 0.0,0.0,0.8
+Divider-Nightmare-tint = 0.0,1.0,0.5
+Divider-Leadership-tint = -58.0,1.0,1.0
+Divider-Lore-tint = 135.0,1.0,1.0
+Divider-Spirit-tint = -168.0,1.0,1.0
+Divider-Tactics-tint = 0.0,1.0,1.0
+Divider-Fellowship-tint = 20.0,1.0,1.0
+Divider-Baggins-tint = 54.0,1.0,1.0
+Divider-Mastery-tint = 30.0,1.0,1.0
+
+Divider-Artist-alignment = middle,center
+Divider-Artist-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD; SIZE: 6; FOREGROUND: #FFFFFF

@@ -1,0 +1,17 @@
+Treasure-Collection-portrait-clip-region = 322,512,12,12
+Treasure-EncounterSet-portrait-clip-region = 312,467,36,36
+Treasure-Portrait-portrait-clip-region = 0,40,375,264
+Treasure-Portrait-portrait-rotation = 0
+
+Treasure-Artist-region = 19,511,109,14
+Treasure-Body-region = 36,314,302,164
+Treasure-CollectionInfo-region = 247,511,72,14
+Treasure-CollectionNumber-region = 337,511,19,14
+Treasure-Copyright-region = 130,511,115,14
+Treasure-Name-region = 109,21,194,24
+Treasure-ResourceCost-region = 29,46,38,24
+Treasure-Type-region = 120,487,135,18
+
+Treasure-Body-shape = 0,0,458,0,34
+
+Treasure-OptionLeft-region = 32,490,57,10
