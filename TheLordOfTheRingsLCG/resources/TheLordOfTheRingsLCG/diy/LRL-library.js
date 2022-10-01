@@ -203,13 +203,15 @@ function drawText(key,box,g,diy,shape){
 
 function drawBody(partsArray,g,diy,shape){
 	var Text = '';
+	var region = diy.settings.getRegion(checkKey('Body-region')) ;
 	for( let index = 0; index < partsArray.length; index++ ){
 		Text =  addTextPart(Text,partsArray[index],diy);
 	}
 	if($('LRL-'+Card+'-justified') == 'yes'){Text = Text+'<justified>';}
 	Body_box.markupText = Text;
 	updateNameTags(Body_box,diy);
-	Body_box.draw(g,diy.settings.getRegion(checkKey('Body-region')));
+	//$Body-measuredHeight = Body_box.measure(g,region);
+	Body_box.draw(g,region);
 }
 function drawBodyBack(partsArray,g,diy){
 	var Text = '';
