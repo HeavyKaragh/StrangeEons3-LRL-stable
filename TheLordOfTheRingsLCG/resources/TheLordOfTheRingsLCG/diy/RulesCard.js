@@ -194,7 +194,7 @@ function paintFront( g, diy, sheet ){
 	sheet.paintTemplateImage(g);
 /* PORTRAIT */
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	var adapterList = new Array(
 		'EncounterSet','EncounterSet1','EncounterSet2',
 		'EncounterSet3','EncounterSet4','EncounterSet5' );
@@ -232,7 +232,6 @@ function paintFront( g, diy, sheet ){
 		sheet.paintImage(g,getIcon(ENCOUNTERSET4),ES4region);
 		sheet.paintImage(g,getIcon(ENCOUNTERSET5),ES5region);
 	}
-//	paintIcon(COLLECTION,g,sheet);
 	/* TEXT */
 	Name_box.markupText = $Name;
 	drawTextLineOutlined('Name',null,strokeMedium,diy,g,sheet);

@@ -187,7 +187,7 @@ function paintFront( g, diy, sheet ){
 		sheet.paintImage(g,checkKey('sphereDeco'),checkKey('sphereDeco-region'));
 	}
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	paintIcon(CUSTOMSPHERE,g,sheet);
 /* TEXTS */
 	drawName(g,diy);

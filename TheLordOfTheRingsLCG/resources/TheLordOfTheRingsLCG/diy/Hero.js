@@ -319,23 +319,23 @@ function paintFront( g, diy, sheet ){
 		Type_box.drawAsSingleLine(g,diy.settings.getRegion('Hero-Promo-Type-region'));
 		if($LRL-Hero-Promo-outOfBox == 'yes'){
 			Body_box.draw(g,diy.settings.getRegion('Hero-Promo-Body-region'));
-			paintIcon(COLLECTION,g,sheet);
+			if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 			if($Artist == ''){
 				Artist_box.markupText = #LRL-IllustratorUnknown;
 			}else{
 				Artist_box.markupText = #LRL-IllustratorShort+' '+$Artist;
 			}
-			drawTextLineOutlined('Artist',null,strokeMedium,diy,g,sheet);
+			if(diy.settings.getBoolean('LRL-NoBottom',false) === false) drawTextLineOutlined('Artist',null,strokeMedium,diy,g,sheet);
 			Copyright_box.markupText = $Copyright;
-			drawTextLineOutlined('Copyright',null,strokeMedium,diy,g,sheet);
+			if(diy.settings.getBoolean('LRL-NoBottom',false) === false) drawTextLineOutlined('Copyright',null,strokeMedium,diy,g,sheet);
 			CollectionInfo_box.markupText = $CollectionInfo;
-			drawTextLineOutlined('CollectionInfo',null,strokeMedium,diy,g,sheet);
+			if(diy.settings.getBoolean('LRL-NoBottom',false) === false) drawTextLineOutlined('CollectionInfo',null,strokeMedium,diy,g,sheet);
 			if($CollectionNumber > 0){
 				CollectionNumber_box.markupText = $CollectionNumber;
 			}else{
 				CollectionNumber_box.markupText = '---';
 			}
-			drawTextLineOutlined('CollectionNumber',null,strokeMedium,diy,g,sheet);
+			if(diy.settings.getBoolean('LRL-NoBottom',false) === false) drawTextLineOutlined('CollectionNumber',null,strokeMedium,diy,g,sheet);
 		}else{
 			Body_box.draw(g,diy.settings.getRegion('Hero-Promo-Body-inBox-region'));
 			sheet.paintImage(g,getIcon(COLLECTION),diy.settings.getRegion('Hero-Promo-Collection-portrait-clip-region'));
@@ -362,7 +362,7 @@ function paintFront( g, diy, sheet ){
 		}else{
 			Body_box.setPageShape(diy.settings.getCupShape('Hero-Body'));
 		}
-		paintIcon(COLLECTION,g,sheet);
+		if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 		drawName(g,diy);
 		drawBody(new Array('Trait','Rules','Flavour'),g,diy);
 		drawOptionRight(g,diy,sheet);

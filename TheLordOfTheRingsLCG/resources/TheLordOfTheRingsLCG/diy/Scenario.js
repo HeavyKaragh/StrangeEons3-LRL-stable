@@ -315,7 +315,7 @@ function paintFront( g, diy, sheet ){
 	}
 
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	paintIcon(ENCOUNTERSET,g,sheet);
 	paintIcon(ENCOUNTERSET,g,sheet);
 	paintIcon(ENCOUNTERSET1,g,sheet);

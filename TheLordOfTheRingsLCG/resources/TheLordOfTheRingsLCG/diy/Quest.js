@@ -359,7 +359,7 @@ function paintFront( g, diy, sheet ){
 		sheet.paintTemplateImage(g);
 	}
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	paintIcon(ENCOUNTERSET,g,sheet);
 	let adapterList = new Array(
 		'EncounterSet1','EncounterSet2',
@@ -428,7 +428,7 @@ function paintBack( g, diy, sheet ){
 		sheet.paintTemplateImage(g);
 	}
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	paintIcon(ENCOUNTERSET,g,sheet);
 /* STATS */
 	Stage_tinter.setImage(ImageUtils.get('TheLordOfTheRingsLCG/numbert/b'+$Stage+'.png'));

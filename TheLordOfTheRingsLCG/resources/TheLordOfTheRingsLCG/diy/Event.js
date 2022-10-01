@@ -229,7 +229,7 @@ function paintFront( g, diy, sheet ){
 		);
 	}
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	paintIcon(CUSTOMSPHERE,g,sheet);
 /* STATS */
 	ResourceCost_tinter.setImage(ImageUtils.get('TheLordOfTheRingsLCG/numbert/'+$ResourceCost+'.png'));

@@ -187,7 +187,7 @@ function paintFront( g, diy, sheet ){
 		break;
 	}
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	paintIcon(ENCOUNTERSET,g,sheet);
 /* STATS */
 	Progress_tinter.setImage(ImageUtils.get('TheLordOfTheRingsLCG/numbert/'+$Progress+'.png'));

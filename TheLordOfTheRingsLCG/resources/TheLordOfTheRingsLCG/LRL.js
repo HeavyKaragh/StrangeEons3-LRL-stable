@@ -63,6 +63,9 @@ function initialize(){
 	pc.heading(@LRL-TheLordOfTheRingsLCG); pc.join();
 	pc.addHelp(@LRL-preferences-guide-link,@LRL-preferences-guide,false);
 	
+	if($LRL-NoBottom == null){$LRL-NoBottom = false;}
+	pc.addCheckBox('LRL-NoBottom',@LRL-preferences-NoBottom,false);
+	
 	pc.subheading(@LRL-preferences-subheading-textAlignment);
 	pc.join(); pc.addTip(@LRL-preferences-textAlignment-tip);
 	labels = new Array(@LRL-left,@LRL-center,@LRL-right);
@@ -502,7 +505,7 @@ function gameObject(){
 		'MountDoom',
 		'OrcsOfMordor',
 		'DeepShadows',
-		'TheMountainOfFireEpic',
+		'EpicMultiplayerMode',
 	/* Print on Demand */
 		'TheBattleOfLakeTownSet',
 		'TheMassingAtOsgiliathSet',
@@ -531,6 +534,27 @@ function gameObject(){
 		'AmongTheOutlaws',
 		'BetrayalOfMim',
 		'TheFallOfNargothrond',
+	/* Children of Eorl box */
+		'AmbushAtErelas',
+		'TheBattleForTheBeacon',
+		'TheHorseLordsIre',
+		'RohanLands',
+		'RohanWeather',
+		'RohanEncampment',
+		'DunlendingWarriors',
+		'FaithlessRohirrim',
+		'OrcHost',
+	/* OathsOfTheRohirrim */
+		'TheAldburgPlot',
+		'FireOnTheEastemnet',
+		'TheGapOfRohan',
+		'TheGlitteringCaves',
+		'SearchForTheHorn',
+		'ExploringTheCaves',
+		'MusteringOfTheRohirrim',
+		'BloodInTheIsen',
+	/* ALongExpectedParty */
+		'TheScouringOfTheShire',
 	/* Special */
 		'SusurrosDelBosqueViejo'
 	);
@@ -593,6 +617,9 @@ function gameObject(){
 	/* Special */
 		'FirstAge',
 		'DoomMastered',
+		'ChildrenOfEorl',
+		'OathsOfTheRohirrim',
+		'TheScouringOfTheShire',
 		'SusurrosDelBosqueViejo'
 	);
 	this.CollectionCombo = new Array('CustomIcon','EmptyIcon','StrangeEonsIcon');

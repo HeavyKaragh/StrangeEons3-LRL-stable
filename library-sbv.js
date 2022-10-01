@@ -14,12 +14,11 @@ importClass( arkham.HSBPanel ) ;
 importClass( ca.cgjennings.graphics.filters.StrokeFilter ) ;
 
 /* VERSION CONTROL */
-const LIBRARYVERSION = 16 ;
+const LIBRARYVERSION = 15 ;
 //12: drawOption*, a\u00f1adido dibujado decoraci\u00f3n
 //13: drawTexOutlined, corregido drawAsSingleLine
 //14: drawSailing
 //15: drawOptionSpecial
-//16: bordes para susurros
 
 /* CONSTANTS AND VARIABLES */
 var LRL = Eons.namedObjects.LRL ;

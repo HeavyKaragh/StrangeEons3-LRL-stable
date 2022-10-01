@@ -160,7 +160,7 @@ function paintFront( g, diy, sheet ){
 /* TEMPLATE */
 	sheet.paintTemplateImage(g);
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	paintIcon(ENCOUNTERSET,g,sheet);
 /* TEXTS */
 	drawName(g,diy);

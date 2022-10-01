@@ -180,7 +180,7 @@ function paintBack( g, diy, sheet ){
 		sheet.paintTemplateImage(g);
 	}
 /* ICONS */
-	paintIcon(COLLECTION,g,sheet);
+	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 /* STATS */
 /* TEXT */
 	drawBody(new Array('Story','Rules','Flavour'),g,diy);
