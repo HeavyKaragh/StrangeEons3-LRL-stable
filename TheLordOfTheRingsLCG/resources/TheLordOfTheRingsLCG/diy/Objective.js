@@ -209,7 +209,7 @@ function createFrontPainter( diy, sheet ){
 	Body_box.defaultStyle = diy.settings.getTextStyle(checkKey('Body-style'),null);
 	Body_box.alignment = diy.settings.getTextAlignment(checkKey('Body-alignment'));
 	Body_box.setLineTightness($Body-tightness);
-	Body_box.setScalingLimit(0.6);
+	//Body_box.setScalingLimit(0.6);
 	for( let index = 0; index < LRL.TagList.length; index++ ){
 		let item = LRL.TagList[index];
 		Body_box.setReplacementForTag($(item+'-tag'),$(item+'-tag-replacement'));
