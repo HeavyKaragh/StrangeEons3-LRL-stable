@@ -4,6 +4,7 @@ Occurrence-back-template = TheLordOfTheRingsLCG/template/Occurrence-bt.jp2
 Occurrence-back-tintable = TheLordOfTheRingsLCG/template/Occurrence-bt-tin.jp2
 Occurrence-front-template = TheLordOfTheRingsLCG/template/Occurrence-ft.jp2
 Occurrence-front-complex = TheLordOfTheRingsLCG/template/Occurrence-ft-cx.jp2
+Occurrence-front-dual = TheLordOfTheRingsLCG/template/Occurrence-ft.jp2
 Preparation-back-template = TheLordOfTheRingsLCG/template/Preparation-bt.jp2
 Preparation-front-template = TheLordOfTheRingsLCG/template/Preparation-ft.jp2
 Quest-Nightmare-adapter0 = TheLordOfTheRingsLCG/template/Quest-ad0-Nightmare.jp2

@@ -225,6 +225,7 @@ function gameObject(){
 	this.ProgressIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Progress.png'),IconSize,IconSize);
 	this.ResourceCostIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/ResourceCost.png'),IconSize,IconSize);
 	this.ShadowIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Shadow.png'),IconSize,IconSize);
+	this.ChoiceIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Choice.png'),IconSize,IconSize);
 	this.ShipIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Ship.png'),IconSize,IconSize);
 	this.SpiritIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Spirit.png'),IconSize,IconSize);
 	this.StandardIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Standard.png'),IconSize,IconSize);
@@ -237,6 +238,7 @@ function gameObject(){
 	this.WillpowerIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Willpower.png'),IconSize,IconSize);
 	this.LRLIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/LRL.png'),IconSize,IconSize);
 	this.ComplexIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Complex.png'),IconSize,IconSize);
+	this.DualIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Dual.png'),IconSize,IconSize);
 	this.CustomRegionIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/CustomRegion.png'),IconSize,IconSize);
 	this.RedIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Red.png'),IconSize,IconSize);
 	this.GreenIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Green.png'),IconSize,IconSize);
@@ -646,13 +648,14 @@ function gameObject(){
 	}
 	this.TagList = new Array(
 		'Attack','Defense','Willpower','Threat',
-		'Unique','Shadow',
-		'VerticalSpacer','HorizontalSpacer',
+		'Unique','Shadow','PerPlayer',
 		'Leadership','Lore','Spirit','Tactics',
 		'Baggins','Fellowship','Mastery',
+		'VerticalSpacer','HorizontalSpacer',
 		'HeadingOnCourse','HeadingOffCourse',
 		'HeadingBad','HeadingWorst',
-		'Sailing','EyeOfSauron','Person'
+		'Sailing','EyeOfSauron',
+		'Person','Choice'
 	);
 	this.LocalizableList = new Array(
 		'Name','NameBack','GameName',

@@ -7,6 +7,7 @@ tintable-sphereColour = TheLordOfTheRingsLCG/image/tintable-sc.png
 tintable-campaignColour = TheLordOfTheRingsLCG/image/tintable-cc.png
 tintable-dragonColour = TheLordOfTheRingsLCG/image/tintable-dc.png
 ShadowSeparator = TheLordOfTheRingsLCG/image/ShadowSeparator.png
+ChoiceSeparator = TheLordOfTheRingsLCG/image/ShadowSeparator.png
 EmptyImage = TheLordOfTheRingsLCG/image/empty1x1.png
 VictoryDeco = TheLordOfTheRingsLCG/image/VictoryDeco.jp2
 EncounterDeco = TheLordOfTheRingsLCG/image/EncounterDeco.png

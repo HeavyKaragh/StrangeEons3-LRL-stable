@@ -8,22 +8,25 @@ Occurrence-Artist-region = 19,511,109,14
 Occurrence-Body-region = 20,310,335,172
 Occurrence-Success-region = 20,373,335,53
 Occurrence-Failure-region = 20,431,335,53
+Occurrence-Choice1-region = 20,328,335,76
+Occurrence-Choice2-region = 20,408,335,76
 Occurrence-Story-region = 20,60,335,88
 Occurrence-CollectionInfo-region = 247,511,88,14
 Occurrence-CollectionNumber-region = 350,511,19,14
 Occurrence-Copyright-region = 130,511,115,14
 Occurrence-Name-region = 20,22,290,23
 Occurrence-Name-full-region = 20,22,335,23
-Occurrence-Type-region = 117,494,140,16
+Occurrence-Type-region = 20,494,335,16
 Occurrence-Region-region = 168,160,40,40
 
 Occurrence-difficultyDeco-region = 312,10,50,50
 Occurrence-front-complex-region = 0,0,375,525
+Occurrence-front-dual-region = 0,0,375,525
 
 Occurrence-Story-alignment = middle,left
 Occurrence-Story-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000; POSTURE: POSTURE_OBLIQUE
 Occurrence-Name-alignment = middle,left
-Occurrence-Name-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 10.0; FOREGROUND: #F0F0F0
+Occurrence-Name-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 10.0; FOREGROUND: #F0F000
 Occurrence-Type-alignment = middle,center
 Occurrence-Type-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 7; FOREGROUND: #F0F0F0
 

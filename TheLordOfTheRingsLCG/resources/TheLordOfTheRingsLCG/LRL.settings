@@ -19,6 +19,16 @@ Failure-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND:
 Failure-shape = 0,0,0,0,0
 Failure-tightness = 0.5
 
+Choice1-alignment = left
+Choice1-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000
+Choice1-shape = 0,0,0,0,0
+Choice1-tightness = 0.5
+
+Choice2-alignment = left
+Choice2-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000
+Choice2-shape = 0,0,0,0,0
+Choice2-tightness = 0.5
+
 Body-alignment = left
 Body-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; SIZE: 7.0; FOREGROUND: #000000
 Body-shape = 0,0,0,0,0
@@ -199,9 +209,13 @@ EyeOfSauron-tag = eos
 EyeOfSauron-tag-replacement = <lrs>5</lrs>
 Person-tag = per
 Person-tag-replacement = <lrs>6</lrs>
+PerPlayer-tag = pla
+PerPlayer-tag-replacement = <lrs>8</lrs>
 # image replacements
 Shadow-tag = sha
 Shadow-tag-replacement = <image res://TheLordOfTheRingsLCG/image/ShadowSeparator.png 1.5in>
+Choice-tag = cho
+Choice-tag-replacement = <image res://TheLordOfTheRingsLCG/image/ChoiceSeparator.png 1.5in 0.06in>
 HorizontalSpacer-tag = hs
 HorizontalSpacer-tag-replacement = <image res://TheLordOfTheRingsLCG/image/empty1x1.png 0.12in 1pt>
 VerticalSpacer-tag = vs
@@ -223,4 +237,5 @@ Region-tint = 0.0,0.2,1.0
 DebugLevel = 0
 BodyIcon-transparency = 2
 ShadowSeparatorSize = 1.5
+ChoiceSeparatorSize = 1.5
 OptionSpecial = none

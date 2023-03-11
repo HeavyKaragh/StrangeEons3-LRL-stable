@@ -13,7 +13,7 @@ function createInterface( diy, editor, sheet ){
 /* PORTRAIT */
 	Portrait_panel = new portraitPanel(diy,PORTRAIT,@LRL-Portrait);
 /* TEMPLATE */
-	var combo = new Array('Standard','Complex');
+	var combo = new Array('Standard','Complex','Dual');
 	for(let index=0;index<combo.length;index++){
 		let item = combo[index];
 		combo[index] = ListItem(item,@('LRL-'+item),eval('LRL.'+item+'Icon'));
@@ -55,6 +55,8 @@ function createInterface( diy, editor, sheet ){
 	Rules_text = new textArea($Rules,6,50,true);
 	Success_text = new textArea($Success,4,50,true);
 	Failure_text = new textArea($Failure,4,50,true);
+	Choice1_text = new textArea($Choice1,4,50,true);
+	Choice2_text = new textArea($Choice2,4,50,true);
 	EncounterSetNumber_list = new spinner(0,99,1,0,null);
 	EncounterSetTotal_list = new spinner(0,99,1,0,null);
 	Type_text = new textField($Type,12,null);
@@ -73,6 +75,8 @@ function createInterface( diy, editor, sheet ){
 		@LRL-Rules,'newline,center,split',new tipButton(@LRL-Rules-tip),'split',new tipButton(@LRL-Keyword-tip),'',Rules_text,'newline,growx',
 		@LRL-Success,'newline,center,split',Success_text,'newline,growx',
 		@LRL-Failure,'newline,center,split',Failure_text,'newline,growx',
+		@LRL-Choice1,'newline,center,split',Choice1_text,'newline,growx',
+		@LRL-Choice2,'newline,center,split',Choice2_text,'newline,growx',
 		separator(),'newline,growx'
 	);
 	RulesFrontTab.addToEditor(editor,@LRL-Rules+': '+@LRL-front);
@@ -143,6 +147,8 @@ function createInterface( diy, editor, sheet ){
 	bindings.add('Rules',Rules_text,[0]);
 	bindings.add('Success',Success_text,[0]);
 	bindings.add('Failure',Failure_text,[0]);
+	bindings.add('Choice1',Choice1_text,[0]);
+	bindings.add('Choice2',Choice2_text,[0]);
 	bindings.add('Type',Type_text,[0]);
 	bindings.add('Template',Template_list,[0]);
 	bindings.add('Difficulty',Difficulty_list,[0]);
@@ -232,6 +238,31 @@ function createFrontPainter( diy, sheet ){
 		Failure_box.setStyleForTag($(item+'-tag'),diy.settings.getTextStyle(item+'-style',null));
 	}
 
+	Choice1_box = markupBox(sheet);
+	Choice1_box.defaultStyle = diy.settings.getTextStyle(checkKey('Choice1-style'),null);
+	Choice1_box.alignment = diy.settings.getTextAlignment(checkKey('Choice1-alignment'));
+	Choice1_box.setLineTightness($Choice1-tightness);
+	for( let index = 0; index < LRL.TagList.length; index++ ){
+		let item = LRL.TagList[index];
+		Choice1_box.setReplacementForTag($(item+'-tag'),$(item+'-tag-replacement'));
+	}
+	for( let index = 0; index < LRL.StyleList.length; index++ ){
+		let item = LRL.StyleList[index];
+		Choice1_box.setStyleForTag($(item+'-tag'),diy.settings.getTextStyle(item+'-style',null));
+	}
+
+	Choice2_box = markupBox(sheet);
+	Choice2_box.defaultStyle = diy.settings.getTextStyle(checkKey('Choice2-style'),null);
+	Choice2_box.alignment = diy.settings.getTextAlignment(checkKey('Choice2-alignment'));
+	Choice2_box.setLineTightness($Choice2-tightness);
+	for( let index = 0; index < LRL.TagList.length; index++ ){
+		let item = LRL.TagList[index];
+		Choice2_box.setReplacementForTag($(item+'-tag'),$(item+'-tag-replacement'));
+	}
+	for( let index = 0; index < LRL.StyleList.length; index++ ){
+		let item = LRL.StyleList[index];
+		Choice2_box.setStyleForTag($(item+'-tag'),diy.settings.getTextStyle(item+'-style',null));
+	}
 }
 function createBackPainter( diy, sheet ){
 /* TEMPLATE */
@@ -248,6 +279,9 @@ function paintFront( g, diy, sheet ){
 	switch(String($Template)){
 	case 'Complex':
 		sheet.paintImage(g,'Occurrence-front-complex','Occurrence-front-complex-region');
+		break;
+	case 'Dual':
+		sheet.paintImage(g,'Occurrence-front-dual','Occurrence-front-dual-region');
 	}
 
 /* ICONS */
@@ -289,8 +323,19 @@ function paintFront( g, diy, sheet ){
 	}
 	drawText('Story',Story_box,g,diy);
 	drawBody(new Array('Rules'),g,diy);
-	drawText('Success',Success_box,g,diy);
-	drawText('Failure',Failure_box,g,diy);
+	switch(String($Template)){
+	case 'Complex':
+		drawText('Success',Success_box,g,diy);
+		drawText('Failure',Failure_box,g,diy);
+		break;
+	case 'Dual':
+		Choice1_box.markupText = "<center><cho><br><left>"+$Choice1;
+		updateNameTags(Choice1_box,diy);
+		Choice1_box.draw(g,diy.settings.getRegion('Occurrence-Choice1-region'));
+		Choice2_box.markupText = "<center><cho><br><left>"+$Choice2;
+		updateNameTags(Choice2_box,diy);
+		Choice2_box.draw(g,diy.settings.getRegion('Occurrence-Choice2-region'));
+	}
 	drawType(g,diy);
 	drawArtist(g,diy);
 	drawCopyright(g,diy);

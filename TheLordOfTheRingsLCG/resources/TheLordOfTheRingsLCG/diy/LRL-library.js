@@ -20,6 +20,7 @@ const LIBRARYVERSION = 16 ;
 //14: drawSailing
 //15: drawOptionSpecial
 //16: bordes para susurros
+//17: suceso dual y complejo
 
 /* CONSTANTS AND VARIABLES */
 var LRL = Eons.namedObjects.LRL ;
@@ -318,14 +319,22 @@ function drawCollectionNumber(g,diy){
 }
 function drawType(g,diy){
 	if($Type != ''){ Type_box.markupText = $Type;
-	}else{ 
-		if($Template == 'Ship'){
+	}else{
+		switch($Template){
+		case 'Ship':
 			if(Card == 'Enemy'){
-				Type_box.markupText = #('LRL-ShipEnemy');
+				Type_box.markupText = #LRL-ShipEnemy;
 			}else if(Card == 'ObjectiveAlly'){
-				Type_box.markupText = #('LRL-ShipObjective');
+				Type_box.markupText = #LRL-ShipObjective;
 			}else{ println('error:drawType:\u00bfShip?');}
-		}else{ 
+			break;
+		case 'Complex':
+			Type_box.markupText = #LRL-ComplexOccurrence; 
+			break;
+		case 'Dual':
+			Type_box.markupText = #LRL-DualOccurrence;
+			break;
+		default: 
 			Type_box.markupText = #('LRL-'+Card); 
 		}
 	}
