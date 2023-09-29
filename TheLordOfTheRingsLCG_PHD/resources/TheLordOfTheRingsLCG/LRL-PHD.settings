@@ -32,6 +32,9 @@ Event-Tactics-sphereText-hires = TheLordOfTheRingsLCG/templatehd/Event-tb-Tactic
 
 Gift-front-template-hires = TheLordOfTheRingsLCG/templatehd/Gift-ft.jp2
 
+Contract-front-template-hires = TheLordOfTheRingsLCG/templatehd/Contract-ft.jp2
+Contract-sideDeco-hires = TheLordOfTheRingsLCG/templatehd/Contract-sd.jp2
+
 Hero-front-template-hires = TheLordOfTheRingsLCG/templatehd/Hero-ft.jp2
 Hero-Baggins-sphereText-hires = TheLordOfTheRingsLCG/templatehd/Character-tb-Baggins.jp2
 Hero-Fellowship-sphereText-hires = TheLordOfTheRingsLCG/templatehd/Character-tb-Fellowship.jp2

@@ -6,9 +6,9 @@ function initialize(){
 	if( Game.get('LRL') != null ){
 		Game.get('LRL').masterSettings.addSettingsFrom('TheLordOfTheRingsLCG/LRL-P.settings');
 		var list = new Array(
-			'Ally','Attachment','Event',
-			'Haven','Hero','Gift','Treasure',
-			'SideQuestPlayer'
+			'Ally','Attachment','Event','SideQuestPlayer',
+			'Hero','Contract','Treasure',
+			'Haven','Gift'
 		);
 		for(let index = 0; index < list.length; index++){
 			Game.get('LRL').masterSettings.addSettingsFrom('TheLordOfTheRingsLCG/settings/'+list[index]+'.settings');

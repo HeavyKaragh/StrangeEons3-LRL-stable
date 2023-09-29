@@ -207,6 +207,8 @@ function gameObject(){
 	this.StyleList = new Array('LRLFont','LRLSymbols','Trait','Section');
 	this.AttackIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Attack.png'),IconSize,IconSize);
 	this.BagginsIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Baggins.png'),IconSize,IconSize);
+	this.SingleSidedIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/SingleSided.png'),IconSize,IconSize);
+	this.DoubleSidedIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/DoubleSided.png'),IconSize,IconSize);
 	this.BoonIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Boon.png'),IconSize,IconSize);
 	this.BurdenIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Burden.png'),IconSize,IconSize);
 	this.CustomDifficultyIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/CustomDifficulty.png'),IconSize,IconSize);
@@ -664,7 +666,7 @@ function gameObject(){
 		'Rules','RulesBack','RulesLeft','RulesRight',
 		'Flavour','FlavourBack','FlavourLeft','FlavourRight',
 		'Condition','ConditionBack','Trait','Shadow',
-		'OptionLeft','OptionRight','Type','Subtype',
+		'OptionLeft','OptionRight','Type','Side','Subtype',
 		'Success','Failure',
 		'Artist','ArtistBack','Copyright','CollectionInfo'
 	);

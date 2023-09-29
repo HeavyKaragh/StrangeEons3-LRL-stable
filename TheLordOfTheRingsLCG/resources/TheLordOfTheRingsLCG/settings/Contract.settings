@@ -1,0 +1,13 @@
+Contract-Collection-portrait-clip-region = 325,512,12,12
+Contract-Portrait-portrait-clip-region = 0,0,375,295
+
+Contract-Artist-region = 18,511,114,14
+Contract-Body-region = 39,284,301,192
+Contract-CollectionInfo-region = 242,511,80,14
+Contract-CollectionNumber-region = 340,511,19,14
+Contract-Copyright-region = 135,511,105,14
+Contract-Name-region = 39,224,296,27
+Contract-Type-region = 121,484,135,17
+Contract-Side-region = 124,260,128,14
+
+Contract-Name-style = FAMILY: {Eons.namedObjects.LRL.LRLFont}; SIZE: 12.0; FOREGROUND: #000000

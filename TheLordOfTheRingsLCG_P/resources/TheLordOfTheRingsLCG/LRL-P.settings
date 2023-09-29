@@ -39,6 +39,9 @@ Event-sphereDeco = TheLordOfTheRingsLCG/image/leaf-sd.jp2
 Gift-front-template = TheLordOfTheRingsLCG/template/Gift-ft.jp2
 Gift-sphereDeco = TheLordOfTheRingsLCG/image/leaf-sd.jp2
 
+Contract-front-template = TheLordOfTheRingsLCG/template/Contract-ft.jp2
+Contract-sideDeco = TheLordOfTheRingsLCG/template/Contract-sd.jp2
+
 Haven-front-template = TheLordOfTheRingsLCG/template/Haven-ft.jp2
 Haven-front-TraitOut = TheLordOfTheRingsLCG/template/Haven-ft-TraitOut.jp2
 

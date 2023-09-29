@@ -3,6 +3,7 @@
 	@LRL-Ally = diy:TheLordOfTheRingsLCG/diy/Ally.js | TheLordOfTheRingsLCG/ui/Ally.png | LRL
 @cat-inventory
 	@LRL-Gift = diy:TheLordOfTheRingsLCG/diy/Gift.js | TheLordOfTheRingsLCG/ui/Gift.png | LRL
+	@LRL-Contract = diy:TheLordOfTheRingsLCG/diy/Contract.js | TheLordOfTheRingsLCG/ui/Contract.png | LRL
 	@LRL-Attachment = diy:TheLordOfTheRingsLCG/diy/Attachment.js | TheLordOfTheRingsLCG/ui/Attachment.png | LRL
 	@LRL-Treasure = diy:TheLordOfTheRingsLCG/diy/Treasure.js | TheLordOfTheRingsLCG/ui/Treasure.png | LRL
 @cat-effects
