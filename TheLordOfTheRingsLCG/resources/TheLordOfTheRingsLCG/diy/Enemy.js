@@ -14,7 +14,7 @@ function createTemplates( diy ){
 function createInterface( diy, editor, sheet ){
 	Portrait_panel = new portraitPanel(diy,PORTRAIT,@LRL-Portrait);
 	var combo = new Array(
-		'Standard','Ship','Nightmare','Gold','CustomDifficulty'
+		'Standard','Ship','Nightmare','ShipNightmare','Gold','CustomDifficulty'
 	);
 	for(let index=0;index<combo.length;index++){
 		let item = combo[index];
@@ -254,6 +254,9 @@ function paintFront( g, diy, sheet ){
 		break;
 	case 'Ship':
 		sheet.paintImage(g,Card+'-Ship-front-template',0,0);
+		break;
+	case 'ShipNightmare':
+		sheet.paintImage(g,Card+'-ShipNightmare-front-template',0,0);
 		break;
 	default:
 		sheet.paintTemplateImage(g);

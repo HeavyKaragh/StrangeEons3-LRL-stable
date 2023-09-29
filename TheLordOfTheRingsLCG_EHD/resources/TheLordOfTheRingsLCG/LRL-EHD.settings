@@ -4,11 +4,13 @@ Encounter-vertical-template-hires = TheLordOfTheRingsLCG/templatehd/Encounter-vt
 Enemy-front-template-hires = TheLordOfTheRingsLCG/templatehd/Enemy-ft.jp2
 Enemy-Nightmare-front-template-hires = TheLordOfTheRingsLCG/templatehd/Enemy-ft-Nightmare.jp2
 Enemy-Ship-front-template-hires = TheLordOfTheRingsLCG/templatehd/Enemy-ft-Ship.jp2
+Enemy-ShipNightmare-front-template-hires = TheLordOfTheRingsLCG/templatehd/Enemy-ft-ShipNightmare.jp2
 
 Location-front-template-hires = TheLordOfTheRingsLCG/templatehd/Location-ft.jp2
 Location-Nightmare-front-template-hires = TheLordOfTheRingsLCG/templatehd/Location-ft-Nightmare.jp2
 
 Objective-front-template-hires = TheLordOfTheRingsLCG/templatehd/Objective-ft.jp2
+Objective-Nightmare-front-template-hires = TheLordOfTheRingsLCG/templatehd/Objective-ft-Nightmare.jp2
 Objective-Burden-front-template-hires = TheLordOfTheRingsLCG/templatehd/Objective-ft-Burden.jp2
 Objective-TheOneRing-front-template-hires = TheLordOfTheRingsLCG/templatehd/Objective-ft-TheOneRing.jp2
 
@@ -19,6 +21,7 @@ ObjectiveAlly-Ship-front-template-hires = TheLordOfTheRingsLCG/templatehd/Object
 Presence-front-template-hires = TheLordOfTheRingsLCG/templatehd/Presence-ft.jp2
 
 SideQuestEncounter-ft-hires = TheLordOfTheRingsLCG/templatehd/SideQuestEncounter-ft.jp2
+SideQuestEncounter-Nightmare-ft-hires = TheLordOfTheRingsLCG/templatehd/SideQuestEncounter-ft-Nightmare.jp2
 
 Treachery-front-template-hires = TheLordOfTheRingsLCG/templatehd/Treachery-ft.jp2
 Treachery-Burden-front-template-hires = TheLordOfTheRingsLCG/templatehd/Treachery-ft-Burden.jp2

@@ -224,6 +224,7 @@ function gameObject(){
 	this.MasteryIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Mastery.png'),IconSize,IconSize);
 	this.NeutralIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Neutral.png'),IconSize,IconSize);
 	this.NightmareIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Nightmare.png'),IconSize,IconSize);
+	this.ShipNightmareIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/ShipNightmare.png'),IconSize,IconSize);
 	this.ProgressIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Progress.png'),IconSize,IconSize);
 	this.ResourceCostIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/ResourceCost.png'),IconSize,IconSize);
 	this.ShadowIcon = ImageUtils.createIcon(ImageUtils.get('TheLordOfTheRingsLCG/ui/Shadow.png'),IconSize,IconSize);

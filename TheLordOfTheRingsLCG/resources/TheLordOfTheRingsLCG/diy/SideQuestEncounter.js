@@ -12,7 +12,7 @@ function createInterface( diy, editor, sheet ){
 /* PORTRAIT */
 	Portrait_panel = new portraitPanel(diy,PORTRAIT,@LRL-Portrait);
 /* TEMPLATE */
-	var combo = new Array('Standard','Gold','CustomDifficulty');
+	var combo = new Array('Standard','Nightmare','Gold','CustomDifficulty');
 	for(let index=0;index<combo.length;index++){
 		let item = combo[index];
 		combo[index] = ListItem(item,@('LRL-'+item),eval('LRL.'+item+'Icon'));
@@ -172,7 +172,11 @@ function paintFront( g, diy, sheet ){
 /* PORTRAIT */
 	PortraitList[PORTRAIT].paint(g,sheet.getRenderTarget());
 /* TEMPLATE */
-	sheet.paintTemplateImage(g);
+	if(String($Template) == 'Standard'){
+		sheet.paintTemplateImage(g);
+	}else{
+		sheet.paintImage(g,'SideQuestEncounter-Nightmare-front-template',0,0);
+	}
 	var hsb;
 	switch(String($Template)){
 	case 'Gold':

@@ -328,6 +328,9 @@ function drawType(g,diy){
 				Type_box.markupText = #LRL-ShipObjective;
 			}else{ println('error:drawType:\u00bfShip?');}
 			break;
+		case 'ShipNightmare':
+			Type_box.markupText = #LRL-ShipNightmare;
+			break;
 		case 'Complex':
 			Type_box.markupText = #LRL-ComplexOccurrence; 
 			break;
@@ -483,7 +486,7 @@ function paintIcon(icon,g,sheet){
 		);
 		break;
 	default:
-		if(($Template == 'Nightmare')&&(key == 'EncounterSet')){
+		if((($Template == 'Nightmare') || ($Template == 'ShipNightmare') )&&(key == 'EncounterSet')){
 			var NightmareIcon = ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'-Nightmare.png', false, true);
 			if(NightmareIcon == null){
 				NightmareIcon = ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'.png');

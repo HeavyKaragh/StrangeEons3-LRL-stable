@@ -13,7 +13,7 @@ function createInterface( diy, editor, sheet ){
 /* PORTRAIT */
 	Portrait_panel = new portraitPanel(diy,PORTRAIT,@LRL-Portrait);
 /* TEMPLATE */
-	var combo = new Array('Standard','Burden','TheOneRing','Gold','CustomDifficulty');
+	var combo = new Array('Standard','Nightmare','Burden','TheOneRing','Gold','CustomDifficulty');
 	for(let index=0;index<combo.length;index++){
 		let item = combo[index];
 		combo[index] = ListItem(item,@('LRL-'+item),eval('LRL.'+item+'Icon'));
@@ -245,6 +245,9 @@ function paintFront( g, diy, sheet ){
 		hsb = diy.settings.getTint('Template');
 		TemplateDeco_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 		sheet.paintImage(g,TemplateDeco_tinter.getTintedImage(),checkKey('deco-region'));
+		break;
+	case 'Nightmare':
+		sheet.paintImage(g,'Objective-Nightmare-front-template',0,0);
 		break;
 	case 'Burden':
 		sheet.paintImage(g,'Objective-Burden-front-template',0,0);
