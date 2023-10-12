@@ -1,5 +1,0 @@
-@cat-rules
-	@LRL-Quest = diy:TheLordOfTheRingsLCG/diy/Quest.js | TheLordOfTheRingsLCG/ui/Quest.png | LRL
-	@LRL-Campaign = diy:TheLordOfTheRingsLCG/diy/Campaign.js | TheLordOfTheRingsLCG/ui/Campaign.png | LRL
-	@LRL-Preparation = diy:TheLordOfTheRingsLCG/diy/Preparation.js | TheLordOfTheRingsLCG/ui/Preparation.png | LRL
-	@LRL-Occurrence = diy:TheLordOfTheRingsLCG/diy/Occurrence.js | TheLordOfTheRingsLCG/ui/Occurrence.png | LRL
