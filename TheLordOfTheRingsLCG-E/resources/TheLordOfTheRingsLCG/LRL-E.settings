@@ -1,0 +1,29 @@
+Encounter-horizontal-template = TheLordOfTheRingsLCG/template/Encounter-ht.jp2
+Encounter-vertical-template = TheLordOfTheRingsLCG/template/Encounter-vt.jp2
+
+Enemy-front-template = TheLordOfTheRingsLCG/template/Enemy-ft.jp2
+Enemy-Nightmare-front-template = TheLordOfTheRingsLCG/template/Enemy-ft-Nightmare.jp2
+Enemy-Ship-front-template = TheLordOfTheRingsLCG/template/Enemy-ft-Ship.jp2
+Enemy-ShipNightmare-front-template = TheLordOfTheRingsLCG/template/Enemy-ft-ShipNightmare.jp2
+
+Location-front-template = TheLordOfTheRingsLCG/template/Location-ft.jp2
+Location-Nightmare-front-template = TheLordOfTheRingsLCG/template/Location-ft-Nightmare.jp2
+
+Objective-front-template = TheLordOfTheRingsLCG/template/Objective-ft.jp2
+Objective-Nightmare-front-template = TheLordOfTheRingsLCG/template/Objective-ft-Nightmare.jp2
+Objective-Burden-front-template = TheLordOfTheRingsLCG/template/Objective-ft-Burden.jp2
+Objective-TheOneRing-front-template = TheLordOfTheRingsLCG/template/Objective-ft-TheOneRing.jp2
+
+ObjectiveAlly-front-template = TheLordOfTheRingsLCG/template/ObjectiveAlly-ft.jp2
+ObjectiveAlly-Boon-front-template = TheLordOfTheRingsLCG/template/ObjectiveAlly-ft-Boon.jp2
+ObjectiveAlly-Ship-front-template = TheLordOfTheRingsLCG/template/ObjectiveAlly-ft-Ship.jp2
+
+Presence-front-template = TheLordOfTheRingsLCG/template/Presence-ft.jp2
+Presence-front-TraitOut = TheLordOfTheRingsLCG/template/Presence-ft-TraitOut.jp2
+
+SideQuestEncounter-front-template = TheLordOfTheRingsLCG/template/SideQuestEncounter-ft.jp2
+SideQuestEncounter-Nightmare-front-template = TheLordOfTheRingsLCG/template/SideQuestEncounter-ft-Nightmare.jp2
+
+Treachery-front-template = TheLordOfTheRingsLCG/template/Treachery-ft.jp2
+Treachery-Burden-front-template = TheLordOfTheRingsLCG/template/Treachery-ft-Burden.jp2
+Treachery-Nightmare-front-template = TheLordOfTheRingsLCG/template/Treachery-ft-Nightmare.jp2
