@@ -12,6 +12,9 @@ function createInterface( diy, editor, sheet ){
 /* PORTRAIT */
 	Portrait_panel = new portraitPanel(diy,PORTRAIT,@LRL-Portrait);
 /* ICONS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 	Collection_list = new comboBox(LRL.CollectionCombo,null);
 	Collection_panel = new portraitPanel(diy,COLLECTION,@LRL-Collection+': '+@LRL-custom);
 	EncounterSet_list = new comboBox(LRL.EncounterSetCombo,null);

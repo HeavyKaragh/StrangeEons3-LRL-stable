@@ -14,13 +14,14 @@ importClass( arkham.HSBPanel ) ;
 importClass( ca.cgjennings.graphics.filters.StrokeFilter ) ;
 
 /* VERSION CONTROL */
-const LIBRARYVERSION = 16 ;
+const LIBRARYVERSION = 18 ;
 //12: drawOption*, a\u00f1adido dibujado decoraci\u00f3n
 //13: drawTexOutlined, corregido drawAsSingleLine
 //14: drawSailing
 //15: drawOptionSpecial
 //16: bordes para susurros
 //17: suceso dual y complejo
+//18: numeros en icono de encuentro
 
 /* CONSTANTS AND VARIABLES */
 var LRL = Eons.namedObjects.LRL ;
@@ -486,21 +487,37 @@ function paintIcon(icon,g,sheet){
 		);
 		break;
 	default:
-		if((($Template == 'Nightmare') || ($Template == 'ShipNightmare') )&&(key == 'EncounterSet')){
-			var NightmareIcon = ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'-Nightmare.png', false, true);
-			if(NightmareIcon == null){
-				NightmareIcon = ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'.png');
-				NightmareIcon = ImageUtils.invert(NightmareIcon);
+		if( item.length <= 3){
+			var NumberIcon = ImageUtils.get('TheLordOfTheRingsLCG/numbert/'+item+'.png', false, true);
+			NumberIcon_tinter.setImage(NumberIcon);
+			NumberIcon = NumberIcon_tinter.getTintedImage();
+			let region = settingToArray(checkKey(key+'-portrait-clip-region'));
+			let x = Number(region[0]) ;
+			let y = Number(region[1]) ;
+			let w = Number(region[2]) ;
+			let h = Number(region[3]) ;
+			if( item.length == 1){
+				x = x-Number($NumberIconWidth) ;
+				w = w+Number($NumberIconWidth)+Number($NumberIconWidth) ;
 			}
-			sheet.paintImage(g,
-				NightmareIcon,
-				checkKey(key+'-portrait-clip-region')
-			);
+			sheet.paintImage(g, NumberIcon, new Region(x, y, w, h ))
 		}else{
-			sheet.paintImage(g,
-				ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'.png'),
-				checkKey(key+'-portrait-clip-region')
-			);
+			if((($Template == 'Nightmare') || ($Template == 'ShipNightmare') )&&(key == 'EncounterSet')){
+				var NightmareIcon = ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'-Nightmare.png', false, true);
+				if(NightmareIcon == null){
+					NightmareIcon = ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'.png');
+					NightmareIcon = ImageUtils.invert(NightmareIcon);
+				}
+				sheet.paintImage(g,
+					NightmareIcon,
+					checkKey(key+'-portrait-clip-region')
+				);
+			}else{
+				sheet.paintImage(g,
+					ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'.png'),
+					checkKey(key+'-portrait-clip-region')
+				);
+			}
 		}
 	}
 }

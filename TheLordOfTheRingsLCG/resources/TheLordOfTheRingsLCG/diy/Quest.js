@@ -241,6 +241,9 @@ function createFrontPainter( diy, sheet ){
 		diy.settings.getImageResource('tintable-difficultyDeco')
 	);
 /* STATS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 	Stage_tinter = new TintCache(new TintFilter(),null);
 	hsb = diy.settings.getTint('Stage-tint');
 	Stage_tinter.setFactors(hsb[0],hsb[1],hsb[2]);

@@ -17,6 +17,9 @@ function createInterface( diy, editor, sheet ){
 	EncounterSet_list = new comboBox(LRL.EncounterSetCombo,null);
 	EncounterSet_portrait = new portraitPanel(diy,ENCOUNTERSET,@LRL-EncounterSet+': '+@LRL-custom);
 /* STATS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 /* TEXT */
 	diy.nameField = new textField($Name,12,null);
 	Rules_text = new textArea($Rules,10,50,true);

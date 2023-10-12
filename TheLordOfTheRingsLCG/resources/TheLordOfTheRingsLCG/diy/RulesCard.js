@@ -194,6 +194,9 @@ function paintFront( g, diy, sheet ){
 	sheet.paintTemplateImage(g);
 /* PORTRAIT */
 /* ICONS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 	if(diy.settings.getBoolean('LRL-NoBottom',false) === false) paintIcon(COLLECTION,g,sheet);
 	var adapterList = new Array(
 		'EncounterSet','EncounterSet1','EncounterSet2',

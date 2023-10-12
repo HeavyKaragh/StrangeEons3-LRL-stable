@@ -129,6 +129,9 @@ function createFrontPainter( diy, sheet ){
 		diy.settings.getImageResource('tintable-difficultyDeco')
 	);
 /* ICONS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 /* STATS */
 	Progress_tinter = new TintCache(new TintFilter(),null);
 	var hsb = diy.settings.getTint('Progress');

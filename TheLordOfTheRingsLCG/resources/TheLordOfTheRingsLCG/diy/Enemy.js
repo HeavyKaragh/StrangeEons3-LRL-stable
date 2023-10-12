@@ -179,6 +179,9 @@ function createFrontPainter( diy, sheet ){
 	);
 /* ICONS */
 /* STATS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 	Engagement_tinter = new TintCache(new TintFilter(),null);
 	hsb = diy.settings.getTint(checkKey('Engagement','-tint'));
 	Engagement_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
