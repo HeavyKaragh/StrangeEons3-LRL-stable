@@ -487,20 +487,17 @@ function paintIcon(icon,g,sheet){
 		);
 		break;
 	default:
-		if( item.length <= 3){
-			var NumberIcon = ImageUtils.get('TheLordOfTheRingsLCG/numbert/'+item+'.png', false, true);
+		if( item.length <= 2){
+			let NumberIcon = ImageUtils.get('TheLordOfTheRingsLCG/numbert/'+item+'.png', false, true);
 			NumberIcon_tinter.setImage(NumberIcon);
 			NumberIcon = NumberIcon_tinter.getTintedImage();
 			let region = settingToArray(checkKey(key+'-portrait-clip-region'));
-			let x = Number(region[0]) ;
-			let y = Number(region[1]) ;
-			let w = Number(region[2]) ;
-			let h = Number(region[3]) ;
-			if( item.length == 1){
-				x = x-Number($NumberIconWidth) ;
-				w = w+Number($NumberIconWidth)+Number($NumberIconWidth) ;
-			}
-			sheet.paintImage(g, NumberIcon, new Region(x, y, w, h ))
+			let modifier = settingToArray(checkKey('EncounterSet-portrait-NumberModifier'));
+			let x = Number(region[0])+Number(modifier[0]) ;
+			let y = Number(region[1])+Number(modifier[1]) ;
+			let w = Number(region[2])+Number(modifier[2]) ;
+			let h = Number(region[3])+Number(modifier[3]) ;
+			sheet.paintImage(g, NumberIcon, new Region(x,y,w,h)) ;
 		}else{
 			if((($Template == 'Nightmare') || ($Template == 'ShipNightmare') )&&(key == 'EncounterSet')){
 				var NightmareIcon = ImageUtils.get('TheLordOfTheRingsLCG/icon/'+item+'-Nightmare.png', false, true);

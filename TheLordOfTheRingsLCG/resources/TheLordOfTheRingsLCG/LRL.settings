@@ -242,4 +242,4 @@ BodyIcon-transparency = 2
 ShadowSeparatorSize = 1.5
 ChoiceSeparatorSize = 1.5
 OptionSpecial = none
-NumberIconWidth = 4
+EncounterSet-portrait-NumberModifier = 0,0,0,0

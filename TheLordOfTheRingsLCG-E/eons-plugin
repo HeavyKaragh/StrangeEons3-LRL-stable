@@ -13,12 +13,12 @@ catalog-credit = Karagh, GeckoTH
 catalog-description = <p>This plug-in allows creating components for <i><b>The \
     Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.\n<p>This \
     expansion includes these Encounter deck components:\n<ul>\n<li><b>Enemy:</b> \
-    Standard, Nightmare, Ship, Gold, custom\n<li><b>Location:</b> Standard, \
-    Nightmare, Gold, custom\n<li><b>Treachery:</b> Standard, Nightmare, Burden, \
-    Gold, custom\n<li><b>Objective:</b> Standard, Burden, Gold, The One Ring, \
-    custom\n<li><b>Objective-Ally:</b> Standard, Ship, Boon, Gold, \
-    custom\n<li><b>Encounter Side Quest</b>\n</ul>\n<p>This add-on includes these \
-    unofficial player cards:</p>\n<ul>\n<li><b>Presence</b>\n</ul>
+    Standard, Nightmare, Ship, Ship (Nightmare), Gold, custom\n<li><b>Location:</b> \
+    Standard, Nightmare, Gold, custom\n<li><b>Treachery:</b> Standard, Nightmare, \
+    Burden, Gold, custom\n<li><b>Objective:</b> Standard, Burden, Nightmare, Gold, \
+    The One Ring, custom\n<li><b>Objective-Ally:</b> Standard, Ship, Boon, Gold, \
+    custom\n<li><b>Encounter Side Quest: Standard, Nightmare</b>\n</ul>\n<p>This \
+    add-on includes these unofficial player cards:</p>\n<ul>\n<li><b>Presence</b>\n</ul>
 catalog-description_es_ES = <p>Este complemento permite crear componentes para \
     <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
     Games.</p>\n<p>Esta expansión incluye las siguientes cartas de \

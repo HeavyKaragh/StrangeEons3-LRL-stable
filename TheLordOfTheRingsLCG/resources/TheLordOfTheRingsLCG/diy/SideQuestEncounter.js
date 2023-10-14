@@ -175,10 +175,12 @@ function paintFront( g, diy, sheet ){
 /* PORTRAIT */
 	PortraitList[PORTRAIT].paint(g,sheet.getRenderTarget());
 /* TEMPLATE */
-	if(String($Template) == 'Standard'){
-		sheet.paintTemplateImage(g);
-	}else{
+	switch(String($Template)){
+	case 'Nightmare':
 		sheet.paintImage(g,'SideQuestEncounter-Nightmare-front-template',0,0);
+		break;
+	default:
+		sheet.paintTemplateImage(g);
 	}
 	var hsb;
 	switch(String($Template)){
