@@ -21,3 +21,11 @@ Objective-Burden-Body-shape = 70,70,332,0,0
 Objective-OptionLeft-region = 38,490,57,10
 Objective-OptionRight-region = 281,490,57,10
 Objective-OptionSpecial-region = 54,480,24,24
+
+Objective-Nightmare-EncounterSet-portrait-clip-region = 301,254,34,34
+Objective-Nightmare-Adventure-region = 49,60,275,13
+Objective-Nightmare-Body-region = 35,320,304,156
+Objective-Nightmare-EncounterSetNumber-region = 307,297,24,12
+Objective-Nightmare-Name-region = 45,24,284,25
+Objective-Nightmare-Type-region = 116,485,140,19
+Objective-Nightmare-OptionRight-region = 292,492,57,10

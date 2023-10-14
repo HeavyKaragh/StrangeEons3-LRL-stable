@@ -12,7 +12,11 @@ SideQuestEncounter-Name-region = 72,20,378,26
 SideQuestEncounter-Progress-region = 32,189,36,24
 
 SideQuestEncounter-Body-shape = 0,0,336,0,62
-
 SideQuestEncounter-difficultyDeco-region = 453,168,52,52
-
 SideQuestEncounter-OptionRight-region = 447,343,56,9
+
+SideQuestEncounter-Nightmare-EncounterSet-portrait-clip-region = 465,178,34,34
+SideQuestEncounter-Nightmare-Body-region = 31,235,466,118
+SideQuestEncounter-Nightmare-EncounterSetNumber-region = 469,217,24,12
+SideQuestEncounter-Nightmare-Name-region = 72,19,378,26
+SideQuestEncounter-Nightmare-Progress-region = 32,190,36,24

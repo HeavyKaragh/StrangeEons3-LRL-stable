@@ -31,3 +31,7 @@ Enemy-Nightmare-Name-region = 70,308,236,25
 Enemy-Ship-EncounterSetNumber-region = 311,294,24,12
 Enemy-Ship-Body-region = 40,344,296,132
 
+Enemy-ShipNightmare-EncounterSet-portrait-clip-region = 305,253,36,36
+Enemy-ShipNightmare-EncounterSetNumber-region = 311,294,24,12
+Enemy-ShipNightmare-Body-region = 38,344,300,132
+Enemy-ShipNightmare-Name-region = 87,308,202,24
