@@ -1,4 +1,4 @@
-id = CATALOGUEID{6a986b9f-11a6-4e6e-bec9-c9f60455b979:2023-9-12-8-19-16-323}
+id = CATALOGUEID{6a986b9f-11a6-4e6e-bec9-c9f60455b979:2023-9-14-15-4-55-955}
 
 priority = EXPANSION
 ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
@@ -54,6 +54,6 @@ catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per 
 
 catalog-game = LRL
 catalog-tags = beta, component
-catalog-minver = 3784
+catalog-minver = 3970
 
 res://TheLordOfTheRingsLCG/LRL-P.js
