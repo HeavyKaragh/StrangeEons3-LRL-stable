@@ -84,53 +84,53 @@ function initialize(){
 		pc.label(@LRL-Story); pc.join();
 		pc.addDropDown('LRL-Story-alignment',labels,values);
 	
-	pc.subheading(@LRL-preferences-subheading-textJustified);
-	pc.join(); pc.addTip(@LRL-preferences-textJustified-tip);
-	if($LRL-Enemy-justified == null){$LRL-Enemy-justified = 'no';}
-		pc.addCheckBox('LRL-Enemy-justified',@LRL-Enemy,false);
-	if($LRL-Location-justified == null){$LRL-Location-justified = 'no';}
-		pc.addCheckBox('LRL-Location-justified',@LRL-Location,false);
-	if($LRL-Objective-justified == null){$LRL-Objective-justified = 'no';}
-		pc.addCheckBox('LRL-Objective-justified',@LRL-Objective,false);
-	if($LRL-ObjectiveAlly-justified == null){$LRL-ObjectiveAlly-justified = 'no';}
-		pc.addCheckBox('LRL-ObjectiveAlly-justified',@LRL-ObjectiveAlly,false);
-	if($LRL-SideQuestEncounter-justified == null){$LRL-SideQuestEncounter-justified = 'yes';}
-		pc.addCheckBox('LRL-SideQuestEncounter-justified',@LRL-SideQuestEncounter,false);
-	if($LRL-Treachery-justified == null){$LRL-Treachery-justified = 'no';}
-		pc.addCheckBox('LRL-Treachery-justified',@LRL-Treachery,false);
-	
-	if($LRL-Quest-justified == null){$LRL-Quest-justified = 'yes';}
-		pc.addCheckBox('LRL-Quest-justified',@LRL-Quest,false);
-	if($LRL-Campaign-justified == null){$LRL-Campaign-justified = 'no';}
-		pc.addCheckBox('LRL-Campaign-justified',@LRL-Campaign,false);
-	if($LRL-Preparation-justified == null){$LRL-Preparation-justified = 'no';}
-		pc.addCheckBox('LRL-Preparation-justified',@LRL-Preparation,false);
-
-	if($LRL-Hero-justified == null){$LRL-Hero-justified = 'no';}
-		pc.addCheckBox('LRL-Hero-justified',@LRL-Hero,false);
-	if($LRL-Ally-justified == null){$LRL-Ally-justified = 'no';}
-		pc.addCheckBox('LRL-Ally-justified',@LRL-Ally,false);
-	if($LRL-Attachment-justified == null){$LRL-Attachment-justified = 'no';}
-		pc.addCheckBox('LRL-Attachment-justified',@LRL-Attachment,false);
-	if($LRL-Event-justified == null){$LRL-Event-justified = 'no';}
-		pc.addCheckBox('LRL-Event-justified',@LRL-Event,false);
-	if($LRL-Treasure-justified == null){$LRL-Treasure-justified = 'no';}
-		pc.addCheckBox('LRL-Treasure-justified',@LRL-Treasure,false);
-	if($LRL-Gift-justified == null){$LRL-Gift-justified = 'no';}
-		pc.addCheckBox('LRL-Gift-justified',@LRL-Gift,false);
-	if($LRL-SideQuestPlayer-justified == null){$LRL-SideQuestPlayer-justified = 'yes';}
-		pc.addCheckBox('LRL-SideQuestPlayer-justified',@LRL-SideQuestPlayer,false);
-	
-	if($LRL-QuestSheet-justified == null){$LRL-QuestSheet-justified = 'yes';}
-		pc.addCheckBox('LRL-QuestSheet-justified',@LRL-QuestSheet,false);
-	if($LRL-RulesCard-justified == null){$LRL-RulesCard-justified = 'yes';}
-		pc.addCheckBox('LRL-RulesCard-justified',@LRL-RulesCard,false);
-	if($LRL-Presentation-justified == null){$LRL-Presentation-justified = 'yes';}
-		pc.addCheckBox('LRL-Presentation-justified',@LRL-Presentation,false);
-	if($LRL-Scenario-justified == null){$LRL-Scenario-justified = 'yes';}
-		pc.addCheckBox('LRL-Scenario-justified',@LRL-Scenario,false);
-	if($LRL-Set-justified == null){$LRL-Set-justified = 'yes';}
-		pc.addCheckBox('LRL-Set-justified',@LRL-Set,false);
+//	pc.subheading(@LRL-preferences-subheading-textJustified);
+//	pc.join(); pc.addTip(@LRL-preferences-textJustified-tip);
+//	if($LRL-Enemy-justified == null){$LRL-Enemy-justified = 'no';}
+//		pc.addCheckBox('LRL-Enemy-justified',@LRL-Enemy,false);
+//	if($LRL-Location-justified == null){$LRL-Location-justified = 'no';}
+//		pc.addCheckBox('LRL-Location-justified',@LRL-Location,false);
+//	if($LRL-Objective-justified == null){$LRL-Objective-justified = 'no';}
+//		pc.addCheckBox('LRL-Objective-justified',@LRL-Objective,false);
+//	if($LRL-ObjectiveAlly-justified == null){$LRL-ObjectiveAlly-justified = 'no';}
+//		pc.addCheckBox('LRL-ObjectiveAlly-justified',@LRL-ObjectiveAlly,false);
+//	if($LRL-SideQuestEncounter-justified == null){$LRL-SideQuestEncounter-justified = 'yes';}
+//		pc.addCheckBox('LRL-SideQuestEncounter-justified',@LRL-SideQuestEncounter,false);
+//	if($LRL-Treachery-justified == null){$LRL-Treachery-justified = 'no';}
+//		pc.addCheckBox('LRL-Treachery-justified',@LRL-Treachery,false);
+//	
+//	if($LRL-Quest-justified == null){$LRL-Quest-justified = 'yes';}
+//		pc.addCheckBox('LRL-Quest-justified',@LRL-Quest,false);
+//	if($LRL-Campaign-justified == null){$LRL-Campaign-justified = 'no';}
+//		pc.addCheckBox('LRL-Campaign-justified',@LRL-Campaign,false);
+//	if($LRL-Preparation-justified == null){$LRL-Preparation-justified = 'no';}
+//		pc.addCheckBox('LRL-Preparation-justified',@LRL-Preparation,false);
+//
+//	if($LRL-Hero-justified == null){$LRL-Hero-justified = 'no';}
+//		pc.addCheckBox('LRL-Hero-justified',@LRL-Hero,false);
+//	if($LRL-Ally-justified == null){$LRL-Ally-justified = 'no';}
+//		pc.addCheckBox('LRL-Ally-justified',@LRL-Ally,false);
+//	if($LRL-Attachment-justified == null){$LRL-Attachment-justified = 'no';}
+//		pc.addCheckBox('LRL-Attachment-justified',@LRL-Attachment,false);
+//	if($LRL-Event-justified == null){$LRL-Event-justified = 'no';}
+//		pc.addCheckBox('LRL-Event-justified',@LRL-Event,false);
+//	if($LRL-Treasure-justified == null){$LRL-Treasure-justified = 'no';}
+//		pc.addCheckBox('LRL-Treasure-justified',@LRL-Treasure,false);
+//	if($LRL-Gift-justified == null){$LRL-Gift-justified = 'no';}
+//		pc.addCheckBox('LRL-Gift-justified',@LRL-Gift,false);
+//	if($LRL-SideQuestPlayer-justified == null){$LRL-SideQuestPlayer-justified = 'yes';}
+//		pc.addCheckBox('LRL-SideQuestPlayer-justified',@LRL-SideQuestPlayer,false);
+//	
+//	if($LRL-QuestSheet-justified == null){$LRL-QuestSheet-justified = 'yes';}
+//		pc.addCheckBox('LRL-QuestSheet-justified',@LRL-QuestSheet,false);
+//	if($LRL-RulesCard-justified == null){$LRL-RulesCard-justified = 'yes';}
+//		pc.addCheckBox('LRL-RulesCard-justified',@LRL-RulesCard,false);
+//	if($LRL-Presentation-justified == null){$LRL-Presentation-justified = 'yes';}
+//		pc.addCheckBox('LRL-Presentation-justified',@LRL-Presentation,false);
+//	if($LRL-Scenario-justified == null){$LRL-Scenario-justified = 'yes';}
+//		pc.addCheckBox('LRL-Scenario-justified',@LRL-Scenario,false);
+//	if($LRL-Set-justified == null){$LRL-Set-justified = 'yes';}
+//		pc.addCheckBox('LRL-Set-justified',@LRL-Set,false);
 
 //	pc.addCheckBox('LRL-preferences-draft',@LRL-preferences-draft-label,false);
 //	pc.join();
@@ -140,46 +140,46 @@ function initialize(){
 	if($LRL-Hero-Promo-outOfBox == null){$LRL-Hero-Promo-outOfBox = 'yes';}
 		pc.addCheckBox('LRL-Hero-Promo-outOfBox',@LRL-preferences-Hero-Promo-outOfBox,false);
 
-	pc.subheading(@LRL-preferences-subheading-default);
-	if($LRL-CollectionInfo == null){$LRL-CollectionInfo = "Strange Eons";}
-		pc.addField('LRL-CollectionInfo',@LRL-CollectionInfo,20);
-		pc.join(); pc.addTip(@LRL-preferences-CollectionInfo-tip);
-
-	if($LRL-Copyright == null){$LRL-Copyright = "\u00a9FFG \u00a9Middle-earth";}
-		pc.addField('LRL-Copyright',@LRL-Copyright,20);
-		pc.join(); pc.addTip(@LRL-preferences-Copyright-tip);
-
-
-	labels = new Array('CustomIcon','EmptyIcon','StrangeEonsIcon');
-	labels = labels.concat(LRL.CollectionList);
-	values = new Array();
-	for( let index = 0; index < labels.length; index++ ){
-		let item = labels[index];
-		labels[index] = @('LRL-'+item);
-		values[index] = item;
-	}
-	if($LRL-Collection == null){$LRL-Collection = 'StrangeEonsIcon';}
-		pc.label(@LRL-Collection);
-		pc.join(); pc.addDropDown('LRL-Collection',labels,values);
-		pc.indent(); pc.indent(); pc.addField('LRL-CollectionUser',@LRL-preferences-pathToIcon,30);
-		pc.join(); pc.addTip(@LRL-preferences-Collection-tip);
-		pc.unindent();pc.unindent();
-
-	labels = new Array('CustomIcon','EmptyIcon','StrangeEonsIcon');
-	labels = labels.concat(LRL.EncounterSetList);
-	values = new Array();
-	for( let index = 0; index < labels.length; index++ ){
-		let item = labels[index];
-		labels[index] = @('LRL-'+item);
-		values[index] = item;
-	}
-	if($LRL-EncounterSet == null){$LRL-EncounterSet = 'StrangeEonsIcon';}
-		pc.label(@LRL-EncounterSet);
-		pc.join(); pc.addDropDown('LRL-EncounterSet',labels,values);
-		pc.indent(); pc.indent(); pc.addField('LRL-EncounterSetUser',@LRL-preferences-pathToIcon,30);
-		pc.join(); pc.addTip(@LRL-preferences-EncounterSet-tip);
-		pc.unindent();pc.unindent();
-	
+//	pc.subheading(@LRL-preferences-subheading-default);
+//	if($LRL-CollectionInfo == null){$LRL-CollectionInfo = "Strange Eons";}
+//		pc.addField('LRL-CollectionInfo',@LRL-CollectionInfo,20);
+//		pc.join(); pc.addTip(@LRL-preferences-CollectionInfo-tip);
+//
+//	if($LRL-Copyright == null){$LRL-Copyright = "\u00a9FFG \u00a9Middle-earth";}
+//		pc.addField('LRL-Copyright',@LRL-Copyright,20);
+//		pc.join(); pc.addTip(@LRL-preferences-Copyright-tip);
+//
+//
+//	labels = new Array('CustomIcon','EmptyIcon','StrangeEonsIcon');
+//	labels = labels.concat(LRL.CollectionList);
+//	values = new Array();
+//	for( let index = 0; index < labels.length; index++ ){
+//		let item = labels[index];
+//		labels[index] = @('LRL-'+item);
+//		values[index] = item;
+//	}
+//	if($LRL-Collection == null){$LRL-Collection = 'StrangeEonsIcon';}
+//		pc.label(@LRL-Collection);
+//		pc.join(); pc.addDropDown('LRL-Collection',labels,values);
+//		pc.indent(); pc.indent(); pc.addField('LRL-CollectionUser',@LRL-preferences-pathToIcon,30);
+//		pc.join(); pc.addTip(@LRL-preferences-Collection-tip);
+//		pc.unindent();pc.unindent();
+//
+//	labels = new Array('CustomIcon','EmptyIcon','StrangeEonsIcon');
+//	labels = labels.concat(LRL.EncounterSetList);
+//	values = new Array();
+//	for( let index = 0; index < labels.length; index++ ){
+//		let item = labels[index];
+//		labels[index] = @('LRL-'+item);
+//		values[index] = item;
+//	}
+//	if($LRL-EncounterSet == null){$LRL-EncounterSet = 'StrangeEonsIcon';}
+//		pc.label(@LRL-EncounterSet);
+//		pc.join(); pc.addDropDown('LRL-EncounterSet',labels,values);
+//		pc.indent(); pc.indent(); pc.addField('LRL-EncounterSetUser',@LRL-preferences-pathToIcon,30);
+//		pc.join(); pc.addTip(@LRL-preferences-EncounterSet-tip);
+//		pc.unindent();pc.unindent();
+//	
 	pc.subheading(@LRL-preferences-subheading-localization);
 	pc.label(@LRL-preferences-locale);
 	labels = new Array(@LRL-last,@LRL-current,@LRL-specified);
