@@ -1,4 +1,4 @@
-id = CATALOGUEID{eabe956c-f059-4cbc-9861-562bf8f50e68:2023-9-14-15-4-47-799}
+id = CATALOGUEID{eabe956c-f059-4cbc-9861-562bf8f50e68:2023-9-15-10-31-2-797}
 
 priority = LOW
 ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
@@ -16,12 +16,14 @@ catalog-description = <p>This plug-in allows creating components for <i><b>The \
     Set and Collection:</b> All official icons up to the reprint \
     included.\n<li><b>First Age:</b> Up to Fall of Nargothrond.\n<li><b>A Long \
     Extended Party:</b> Children of Eorl, Oaths of the Rohirrim and Scouring of the \
-    Shire.\n<li><b>Other: Susurros del Bosque Viejo.</b>\n</ul>
+    Shire.\n<li><b>Other: Susurros del Bosque Viejo, numbers (custom kits).</b>\n</ul>
 catalog-description_es_ES = <p>Este complemento permite crear componentes para \
     <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
     Games.\n<p>Este añadido incluye los iconos de Encuentro y \
-    Colección.\n<ul>\n<li><b>Conjuntos de Encuentro:</b> Hasta Cazador de \
-    Sueños.\n<li><b>Colección:</b> Hasta Cazador de Sueños.\n</ul>
+    Colección.\n<ul>\n<li><b>Conjuntos de Encuentro oficiales:</b> Todos los \
+    oficiales hasta la reimpresión.\n<li><b>Colecciones oficiales:</b> Todos los \
+    oficiales hasta la reimpresión.\n<li><b>No oficiales:</b> Primera Edad, Susurros \
+    del Bosque Viejo, A Long Extended Party.\n</ul>
 catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
     <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
     Games.</p>\n<p>Questo add-on include icone del Mazzo \
