@@ -560,6 +560,7 @@ function gameObject(){
 		'BloodInTheIsen',
 	/* ALongExpectedParty */
 		'TheScouringOfTheShire',
+		'TheSiegeOfErebor',
 	/* Special */
 		'SusurrosDelBosqueViejo',
 	/* Numbers */
@@ -646,6 +647,7 @@ function gameObject(){
 		'ChildrenOfEorl',
 		'OathsOfTheRohirrim',
 		'TheScouringOfTheShire',
+		'TheSiegeOfErebor',
 		'SusurrosDelBosqueViejo'
 	);
 	this.CollectionCombo = new Array('CustomIcon','EmptyIcon','StrangeEonsIcon');
