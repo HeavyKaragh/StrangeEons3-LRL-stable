@@ -180,6 +180,10 @@ function createInterface( diy, editor, sheet ){
 	bindings.bind();
 }
 function createFrontPainter( diy, sheet ){
+/* ICONS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 	Template_tinter = new TintCache(new TintFilter(),diy.settings.getImageResource('tintable-campaignColour'));
 	Page_tinter = new TintCache(new TintFilter(),null);
 	let hsb = diy.settings.getTint('Page');

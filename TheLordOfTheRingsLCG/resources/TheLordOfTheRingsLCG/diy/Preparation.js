@@ -131,6 +131,10 @@ function createInterface( diy, editor, sheet ){
 	bindings.bind();
 }
 function createFrontPainter( diy, sheet ){
+/* ICONS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 	Name_box = markupBox(sheet);
 	Name_box.defaultStyle = diy.settings.getTextStyle(checkKey('Name-style'),null);
 	Name_box.alignment = diy.settings.getTextAlignment(checkKey('Name-alignment'));

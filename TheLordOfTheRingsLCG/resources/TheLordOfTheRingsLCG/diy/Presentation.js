@@ -117,6 +117,9 @@ function createFrontPainter( diy, sheet ){
 	GameName_box.defaultStyle = diy.settings.getTextStyle(checkKey('GameName-style'),null);
 	GameName_box.alignment = diy.settings.getTextAlignment(checkKey('GameName-alignment'));
 /* ICONS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 /* STATS */
 /* TEXT */
 	Name_box = markupBox(sheet);

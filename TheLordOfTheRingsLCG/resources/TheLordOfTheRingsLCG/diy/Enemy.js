@@ -14,7 +14,7 @@ function createTemplates( diy ){
 function createInterface( diy, editor, sheet ){
 	Portrait_panel = new portraitPanel(diy,PORTRAIT,@LRL-Portrait);
 	var combo = new Array(
-		'Standard','Ship','Nightmare','ShipNightmare','Gold','CustomDifficulty'
+		'Standard','Ship','Nightmare','Burden','ShipNightmare','Gold','CustomDifficulty'
 	);
 	for(let index=0;index<combo.length;index++){
 		let item = combo[index];
@@ -45,6 +45,7 @@ function createInterface( diy, editor, sheet ){
 	EncounterSetNumber_list = new spinner(0,99,1,0,null);
 	EncounterSetTotal_list = new spinner(0,99,1,0,null);
 	Type_text = new textField($Type,12,null);
+	Subtype_text = new textField($Subtype,12,null);
 	Artist_text = new textField($Artist,12,null);
 	Copyright_text = new textField($Copyright,12,null);
 	CollectionInfo_text = new textField($CollectionInfo,12,null);
@@ -139,6 +140,7 @@ function createInterface( diy, editor, sheet ){
 		@LRL-Copyright,'newline,split',Copyright_text,'growx',
 		separator(),'newline,growx',
 		@LRL-Type,'newline,split',new tipButton(@LRL-Type-tip),'split',Type_text,'growx,split',
+		@LRL-Subtype,'split',new tipButton(@LRL-Subtype-tip),'split',Subtype_text,'growx,split',
 		separator(),'newline,growx'
 	);
 	CollectionTab.addToEditor(editor,@LRL-Collection);
@@ -158,6 +160,7 @@ function createInterface( diy, editor, sheet ){
 	bindings.add('Defense',Defense_list,[0]);
 	bindings.add('HitPoints',HitPoints_list,[0]);
 	bindings.add('Type',Type_text,[0]);
+	bindings.add('Subtype',Subtype_text,[0]);
 	bindings.add('EncounterSet',EncounterSet_list,[0]);
 	bindings.add('EncounterSetNumber',EncounterSetNumber_list,[0]);
 	bindings.add('EncounterSetTotal',EncounterSetTotal_list,[0]);
@@ -178,10 +181,10 @@ function createFrontPainter( diy, sheet ){
 		diy.settings.getImageResource('tintable-difficultyDeco')
 	);
 /* ICONS */
-/* STATS */
 	NumberIcon_tinter = new TintCache(new TintFilter(),null);
 	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
 	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
+/* STATS */
 	Engagement_tinter = new TintCache(new TintFilter(),null);
 	hsb = diy.settings.getTint(checkKey('Engagement','-tint'));
 	Engagement_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
@@ -208,6 +211,9 @@ function createFrontPainter( diy, sheet ){
 	Type_box = markupBox(sheet);
 	Type_box.defaultStyle = diy.settings.getTextStyle(checkKey('Type-style'),null);
 	Type_box.alignment = diy.settings.getTextAlignment(checkKey('Type-alignment'));
+	Subtype_box = markupBox(sheet);
+	Subtype_box.defaultStyle = diy.settings.getTextStyle(checkKey('Subtype-style'),null);
+	Subtype_box.alignment = diy.settings.getTextAlignment(checkKey('Subtype-alignment'));
 	Copyright_box = markupBox(sheet);
 	Copyright_box.defaultStyle = diy.settings.getTextStyle(checkKey('Copyright-style'),null);
 	Copyright_box.alignment = diy.settings.getTextAlignment(checkKey('Copyright-alignment'));
@@ -255,6 +261,9 @@ function paintFront( g, diy, sheet ){
 	case 'Nightmare':
 		sheet.paintImage(g,Card+'-Nightmare-front-template',0,0);
 		break;
+	case 'Burden':
+		sheet.paintImage(g,Card+'-Burden-front-template',0,0);
+		break;
 	case 'Ship':
 		sheet.paintImage(g,Card+'-Ship-front-template',0,0);
 		break;
@@ -279,7 +288,8 @@ function paintFront( g, diy, sheet ){
 /* TEXTS */
 	drawName(g,diy);
 	drawBody(new Array('Trait','Rules','Shadow','Flavour'),g,diy);
-	drawSetNumber(g,diy);
+	if($Template=='Burden'){drawSubtype(g,diy);
+	}else{drawSetNumber(g,diy);}
 	drawOptionLeft(g,diy,sheet);
 	drawOptionRight(g,diy,sheet);
 	drawType(g,diy);

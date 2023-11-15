@@ -14,10 +14,12 @@ Enemy-Copyright-region = 130,511,115,14
 Enemy-Defense-region = 54,184,16,16
 Enemy-EncounterSetNumber-region = 311,298,24,12
 Enemy-Engagement-region = 56,32,36,24
+Enemy-Burden-Engagement-region = 56,35,36,24
 Enemy-HitPoints-region = 48,253,54,40
 Enemy-Name-region = 88,308,200,24
 Enemy-Threat-region = 54,101,16,16
 Enemy-Type-region = 118,487,142,19
+Enemy-Subtype-region = 145,289,92,14
 
 Enemy-OptionLeft-region = 30,490,57,10
 Enemy-OptionRight-region = 289,490,57,10

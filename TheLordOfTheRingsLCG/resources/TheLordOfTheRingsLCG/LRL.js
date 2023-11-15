@@ -560,6 +560,7 @@ function gameObject(){
 		'BloodInTheIsen',
 	/* ALongExpectedParty */
 		'TheScouringOfTheShire',
+		'TheNineAreAbroad',
 		'TheSiegeOfErebor',
 	/* Special */
 		'SusurrosDelBosqueViejo',

@@ -3,6 +3,7 @@ Encounter-vertical-template = TheLordOfTheRingsLCG/template/Encounter-vt.jp2
 
 Enemy-front-template = TheLordOfTheRingsLCG/template/Enemy-ft.jp2
 Enemy-Nightmare-front-template = TheLordOfTheRingsLCG/template/Enemy-ft-Nightmare.jp2
+Enemy-Burden-front-template = TheLordOfTheRingsLCG/template/Enemy-ft-Burden.jp2
 Enemy-Ship-front-template = TheLordOfTheRingsLCG/template/Enemy-ft-Ship.jp2
 Enemy-ShipNightmare-front-template = TheLordOfTheRingsLCG/template/Enemy-ft-ShipNightmare.jp2
 

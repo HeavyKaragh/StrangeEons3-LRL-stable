@@ -172,6 +172,9 @@ function createFrontPainter( diy, sheet ){
 /* TEMPLATE */
 	TemplateDeco_tinter = new TintCache(new TintFilter(),diy.settings.getImageResource('tintable-difficultyDeco'));
 /* ICONS */
+	NumberIcon_tinter = new TintCache(new TintFilter(),null);
+	hsb = diy.settings.getTint(checkKey('NumberIcon','-tint'));
+	NumberIcon_tinter.setFactors(hsb[0],hsb[1],hsb[2]);
 /* STATS */
 /* TEXT */
 	Name_box = markupBox(sheet);
